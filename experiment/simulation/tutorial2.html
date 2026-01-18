@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEM103 - Workshop Practice - Tutorial 2</title>
+    <style>
+        :root {
+            --primary-color: #003366; /* Academic Navy Blue */
+            --accent-color: #8c1515; /* Brick Red for emphasis */
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --border-color: #ddd;
+            --paper-color: #ffffff;
+        }
+
+        body {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Paper/Manual Container */
+        .manual-container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: var(--paper-color);
+            padding: 40px 60px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border: 1px solid #e1e1e1;
+        }
+
+        /* Headers */
+        h1.main-title {
+            color: var(--primary-color);
+            font-size: 24px;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1.main-title a {
+            font-size: 14px;
+            text-transform: none;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        h1.main-title a:hover {
+            background-color: #002244;
+        }
+
+        /* Sub-headers */
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 35px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #555;
+            font-weight: 700;
+            margin-top: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        /* Text & Lists */
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ol, ul {
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Figures */
+        .figure-container {
+            text-align: center;
+            margin: 30px auto;
+            padding: 15px;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            max-width: 80%;
+        }
+        
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+
+        .figure-caption {
+            display: block;
+            margin-top: 10px;
+            font-style: italic;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Tool Cards (for Types of Rules) */
+        .tool-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .tool-card {
+            border: 1px solid #eee;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .tool-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Navigation/Footer */
+        .nav-footer {
+            margin-top: 50px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-link {
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        
+        .nav-link:hover {
+            background-color: #e0e0e0;
+            text-decoration: none;
+        }
+
+        #copyright {
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 20px;
+            display: block;
+            width: 100%;
+        }
+
+        #copyright a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="manual-container">
+    
+    <h1 class="main-title">
+        MEASUREMENT, MEASURING TOOLS & LAYOUT TOOLS
+        <a href="MEM103/Workshop/Tutorial2.pdf" target="_blank" title="Download Tutorial 2">Download PDF</a>
+    </h1>
+
+    <h2>1. The Rule</h2>
+    <p>
+        A rule is a flat length of wood, plastic, or metal divided or graduated into a number of spaces with specific units of measurement that can be used to measure the dimensions of an object. Rules are available in the English or metric measuring system. It is one tool that is very common in the mechanical shop area that is not of a high precision. When tolerances of fractional dimensions are required, the steel rule is used. The most commonly used steel rule is the 6" rule. It also comes in various widths and thicknesses to meet varying requirements.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/2.jpg" alt="Rule">
+        <span class="figure-caption">Figure 1: Rule</span>
+    </div>
+
+    <p>
+        A <strong>scale</strong> is also a strip similar to a rule but graduated in representative units that can be used to check or lay off representative measurement. Scales are generally used by draftsmen for drawing to a certain scale size.
+    </p>
+
+    <h2>2. Measuring Systems</h2>
+
+    <h3>English System Rules</h3>
+    <p>
+        English system rules are usually 6 or 12 inches long. The English system rules use fractional divisions. The fractional divisions for an inch are found by dividing the inch into equal parts - halves (1/2), quarters (1/4), eighths (1/8), sixteenths (1/16), thirty-seconds (1/32), and sixty-fourths (1/64). Precision machinist rules have 1/64-inch divisions. Some rules only use the fine scale divisions at one end of the scale.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/3.jpg" alt="Fractional parts of an inch">
+        <span class="figure-caption">Figure 2: Fractional parts of an inch (magnified)</span>
+    </div>
+
+    <ul>
+        <li><strong>1/64" Scale:</strong> In a 1-inch length, there are 64 lines dividing the length. These are the smallest graduations on the rule, therefore making the accuracy of a steel rule 1/64". The rule is only intended to measure to 1/64" accuracy.</li>
+        <li><strong>1/32" Scale:</strong> Divides a 1-inch length into 32 divisions. A 1/32 division is equal to 2/64 divisions.</li>
+        <li><strong>1/16" Scale:</strong> Divides a 1-inch length into 16 divisions (4/64 or 2/32 graduations).</li>
+        <li><strong>1/8" Scale:</strong> Divides a 1-inch length into 8 equal divisions (8/64, 4/32, or 2/16 graduations).</li>
+    </ul>
+
+    <h3>Metric System Rule</h3>
+    <p>
+        All metric measures are expressed in mm. The metric scales use decimal divisions. Meters are typically divided into centimeters (1/100 meter) and millimeters (1/1000 m). The typical metric rule is divided into 0.5-millimeter graduations. Every tenth mark is equal to 1 centimeter. Reading the metric rule is easier than the English rule because it does not use fractions. The metric rule is generally 100 millimeters long. Thus 1.5 meters (m) would be 1500mm.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/4.jpg" alt="Graduation on metric rule">
+        <span class="figure-caption">Figure 3: Graduation on metric rule (Magnified)</span>
+    </div>
+
+    <h2>3. Measuring Procedure</h2>
+    <p><strong>Measuring with the rule:</strong></p>
+    <ol type="a">
+        <li>Select a steel rule with graduations within the required limits of accuracy.</li>
+        <li>Remove burrs from the workpiece. Clean the rule and work.</li>
+        <li>Determine whether the measurement is free of observational, manipulative, and observer bias.</li>
+        <li>Align the steel rule so the scale edge is along the line of measurement. If necessary, use a support piece to ensure that the rule edge remains along the line of measurement.</li>
+        <li>Position the steel rule with the end held lightly against the reference point.</li>
+        <li>Read the measurement at the measured point. For greater precision in measurement, or if a great number of measurements are required, use a magnifier.</li>
+    </ol>
+
+    <h2>4. Best Practices for Using a Rule</h2>
+    <p>
+        When taking measurements, hold the rule so that the scale graduations are as close to the measurement being taken as possible. To get the full accuracy out of a rule, it is important to use it correctly.
+    </p>
+
+    <h3>A. Avoid End Wear</h3>
+    <p>
+        Never use the end of the rule to align with the edge of the work for a measurement. The end of a rule is often rounded off or becomes worn from misuse; thus, the end of the rule will no longer be at a 'zero' position and a true measurement will not be made. Instead, the internal divisions of the rule should be used.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/5.jpg" alt="Incorrect placement of rule">
+        <span class="figure-caption">Figure 4: a, b - Incorrect placement of rule</span>
+    </div>
+
+    <p>
+        To overcome this, use a main graduation apart from zero as a reference point on the rule. Precision and reliable measurements are possible this way. With the graduation directly on the edge of the work and by not using the end of the rule, wear is inconsequential.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/6.jpg" alt="Correct placement of a rule">
+        <span class="figure-caption">Figure 5: Correct placement of a rule</span>
+    </div>
+
+    <h3>B. Use Support Blocks</h3>
+    <p>
+        Even when measuring from the edge of a workpiece, hold a block for support next to the edge, then press the ruler against the block. If the end of the rule is worn off it will not assure an accurate measurement.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/7.jpg" alt="Measuring from the corner">
+        <span class="figure-caption">Figure 6: Measuring from the corner</span>
+    </div>
+
+    <h3>C. Maintain Parallel Alignment</h3>
+    <p>
+        When measuring a length, the rule must be kept in a straight line parallel to the centerline of the work. If it is tilted, the measurement will be longer than the actual part.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/8a.jpg" alt="Correct Alignment">
+        <span class="figure-caption">Figure 7a: Correct Alignment</span>
+        <br><br>
+        <img src="images/mem/Workshop/8b.jpg" alt="Incorrect Alignment">
+        <span class="figure-caption">Figure 7b: Incorrect Alignment</span>
+    </div>
+
+    <h3>D. Measuring Cylinders</h3>
+    <p>
+        Use a pair of blocks and a ruler of sufficient length when measuring the outside diameter of a circular workpiece. Read the measurement at the inside edges of the blocks (Figure 8). Read the inner measurement of the workpiece in the manner shown in Figure 9.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/9.jpg" alt="Measuring an external diameter">
+        <span class="figure-caption">Figure 8: Measuring an external diameter</span>
+    </div>
+    <div class="figure-container">
+        <img src="images/mem/Workshop/10.jpg" alt="Measuring an internal diameter">
+        <span class="figure-caption">Figure 9: Measuring an internal diameter</span>
+    </div>
+
+    <h2>5. Parallax Error</h2>
+    <p>
+        Another important factor in using the rule is to be aware of <strong>parallax</strong>. Parallax is the change in apparent position when an object is viewed from two separate points. For example, if you hold up two fingers in line with your nose and move your head from side to side while viewing them, you will notice an exchange in the relative position of the fingers as you change your point of view. This is an observation error from the person measuring or looking at the part.
+    </p>
+
+    <h3>Incorrect Method (Lying Flat)</h3>
+    <p>
+        The figure below shows an incorrect way of measuring where parallax is greatly increased because of the thickness of the rule. The graduations do not come in direct contact with the work. The arrows pointing to the right and left will cause parallax. Even though the arrow pointing straight up is the correct way to view the rule, there is a chance for error in reading due to the thickness of the rule.
+    </p>
+    <div class="figure-container">
+        <img src="images/mem/Workshop/11.jpg" alt="Incorrect - Rule Lying Flat">
+        <span class="figure-caption">Figure 10: Incorrect - Rule Lying Flat</span>
+    </div>
+
+    <h3>Correct Method (Standing on Edge)</h3>
+    <p>
+        The figure below is used with the rule on edge. As can be seen, the graduation comes in contact with the work, which is the correct way of measuring. Although the arrows pointing to the right and left will cause an improper reading, it will not be as great an error as when used like the figure on the left. The proper way is to view the graduation straight up as the center arrow.
+    </p>
+    <div class="figure-container">
+        <img src="images/mem/Workshop/12.jpg" alt="Correct - Rule Standing on Edge">
+        <span class="figure-caption">Figure 11: Correct - Rule Standing on Edge</span>
+    </div>
+    <p>
+        For utmost precision, hold the ruler on its edge against the work surface. This way, the ruler's markings meet the workpiece surface and you avoid mismarking the workpiece due to an off-center line-of-sight created by the ruler's thickness.
+    </p>
+
+    <h2>6. Types of Rules</h2>
+    
+    <div class="tool-grid">
+        <div class="tool-card">
+            <span class="tool-title">Hook Rule</span>
+            <p>Automatically aligns the end of the rule with the end of the workpiece.</p>
+            <div class="figure-container" style="margin: 10px 0;">
+                <img src="images/mem/Workshop/13.jpg" alt="Hook Rule">
+                <span class="figure-caption">Figure 12: Hook Rule</span>
+            </div>
+        </div>
+
+        <div class="tool-card">
+            <span class="tool-title">Narrow Rule</span>
+            <p>Used to measure the depth of narrow slots and small diameter holes where the standard rule is too wide to be used.</p>
+            <div class="figure-container" style="margin: 10px 0;">
+                <img src="images/mem/Workshop/14.jpg" alt="Narrow Rule">
+                <span class="figure-caption">Figure 13: Narrow Rule</span>
+            </div>
+        </div>
+
+        <div class="tool-card">
+            <span class="tool-title">Flexible Rule</span>
+            <p>Can be bent to the contour of arcs and curved lengths permitting measurements impossible to obtain with a rigid rule.</p>
+            <div class="figure-container" style="margin: 10px 0;">
+                <img src="images/mem/Workshop/15.jpg" alt="Flexible Rule">
+                <span class="figure-caption">Figure 14: Flexible Rule</span>
+            </div>
+        </div>
+
+        <div class="tool-card">
+            <span class="tool-title">Narrow Rule with Holder</span>
+            <p>Used to measure grooves, recesses, keyways, and short lengths from shoulders.</p>
+            <div class="figure-container" style="margin: 10px 0;">
+                <img src="images/mem/Workshop/16.jpg" alt="Rule with Holder">
+                <span class="figure-caption">Figure 15: Rule with Holder</span>
+            </div>
+        </div>
+    </div>
+
+    <h3>Flexible Tape</h3>
+    <p>
+        Tapes are another form of line graduated measuring rule that have a retractable long length of metal tape. These are more practical for making long measurements (usually 72 inches or more). When not in use, the tape rolls back into the holder.
+    </p>
+    <div class="figure-container">
+        <img src="images/mem/Workshop/17.jpg" alt="Flexible tape">
+        <span class="figure-caption">Figure 16: Flexible tape</span>
+    </div>
+    
+    <p>
+        <strong>External Measurement:</strong> Locate the hook over one end and pull the case to extend the tape, keeping it flat on the work. Read off against the other edge of the workpiece.<br>
+        <strong>Internal Measurement:</strong> With the back of the case touching one surface, extend the tape. Read off the measurement where the tape enters the case and add the width of the case (usually marked on the case itself).
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/18.jpg" alt="Taking measurements with tape">
+        <span class="figure-caption">Figure 17: Taking an external and an internal measurement</span>
+    </div>
+
+    <p>
+        <strong>Measuring Circumference:</strong> Wrap the flexible tape around the workpiece and align the two meeting edges. Take the 2 in. graduation as your reference point and read off the measurement alongside it. In the end, deduct 2 in. from the calculation to measure the circumference.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/19.jpg" alt="Measuring the cylinder">
+        <span class="figure-caption">Figure 18: Measuring the cylinder</span>
+    </div>
+
+    <div class="nav-footer">
+        <a href="tutorial1.php" class="nav-link">&larr; Tutorial 1</a>
+        <a href="tutorial3.html" class="nav-link">Tutorial 3 &rarr;</a>
+    </div>
+
+    <div id="copyright">
+        &copy; MEM103 - Dayalbagh Educational Institute <a href="https://www.dei.ac.in" target="_blank" title="DEI">(www.dei.ac.in)</a>
+    </div>
+
+</div>
+
+</body>
+</html>
