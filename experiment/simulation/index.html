@@ -1,13 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<meta charset="UTF-8">
+<title>Bench Work Simulation</title>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<style>
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Bench Work Heading (TEXT, not link) */
+.bench-heading {
+    text-align: center;
+    margin: 30px 0 40px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 20px 40px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+/* Workshop title */
+.workshop-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1e3c72;
+}
+
+/* Tutorial list */
+.tutorial-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.tutorial-list a {
+    display: block;
+    padding: 14px 18px;
+    background: #ffffff;
+    color: #1e3c72;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.12);
+    transition: all 0.3s ease;
+}
+
+.tutorial-list a:hover {
+    background: #1e3c72;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background: #1e3c72;
+    color: #fff;
+    font-size: 14px;
+}
+
+#footer a {
+    color: #ffdd57;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Heading Text -->
+    <div class="bench-heading">
+        BENCH WORK SIMULATION
+    </div>
+
+    <!-- Workshop Practice -->
+    <div class="workshop-title">WORKSHOP PRACTICE</div>
+
+    <!-- Tutorial Links -->
+    <div class="tutorial-list">
+        <a href="tutorial1.html">Tutorial 1 – Measurement, Measuring Tools & Layout Tools</a>
+        <a href="tutorial2.html">Tutorial 2 – Using Rule</a>
+        <a href="tutorial3.html">Tutorial 3 – Using Combination Set</a>
+        <a href="tutorial4.html">Tutorial 4 – Using Vernier Caliper</a>
+        <a href="tutorial5.html">Tutorial 5 – Using Vernier Micrometers</a>
+        <a href="tutorial6.html">Tutorial 6 – Reading Inch System Micrometer</a>
+        <a href="tutorial7.html">Tutorial 7 – Using Depth Micrometer</a>
+        <a href="tutorial8.html">Tutorial 8 – Using Vernier Height Gauge</a>
+        <a href="tutorial9.html">Tutorial 9 – Using Cylindrical Square</a>
+        <a href="tutorial10.html">Tutorial 10 – Using Angle Measurement</a>
+        <a href="tutorial11.html">Tutorial 11 – Laying Out Work</a>
+        <a href="tutorial12.html">Tutorial 12 – Using Try Square</a>
+        <a href="tutorial13.html">Tutorial 13 – Using Calipers</a>
+        <a href="tutorial14.html">Tutorial 14 – Using Surface Gauge</a>
+        <a href="tutorial15.html">Tutorial 15 – Using Scribers</a>
+        <a href="tutorial16.html">Tutorial 16 – Using Punches</a>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<div id="footer">
+    &copy; MEM103 - Dayalbagh Educational Institute 
+    <a href="https://www.dei.ac.in" target="_blank">(www.dei.ac.in)</a>
+</div>
+
 </body>
 </html>
