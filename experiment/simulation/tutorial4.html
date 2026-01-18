@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEM103 - Workshop Practice - Tutorial 4</title>
+    <style>
+        :root {
+            --primary-color: #003366; /* Academic Navy Blue */
+            --accent-color: #8c1515; /* Brick Red for emphasis */
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --border-color: #ddd;
+            --paper-color: #ffffff;
+        }
+
+        body {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Manual Container */
+        .manual-container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: var(--paper-color);
+            padding: 40px 60px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border: 1px solid #e1e1e1;
+        }
+
+        /* Headers */
+        h1.main-title {
+            color: var(--primary-color);
+            font-size: 24px;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1.main-title a {
+            font-size: 14px;
+            text-transform: none;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        h1.main-title a:hover {
+            background-color: #002244;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 35px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #555;
+            font-weight: 700;
+            margin-top: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        /* Text Elements */
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        b {
+            color: var(--primary-color);
+        }
+
+        /* Lists */
+        ol, ul {
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Description Lists for Parts */
+        .parts-list dt {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-top: 10px;
+        }
+        .parts-list dd {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        /* Calculation/Math Boxes */
+        .calc-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #003366;
+            padding: 15px;
+            margin: 15px 0;
+            font-family: Consolas, monospace;
+            font-size: 0.95em;
+            color: #444;
+        }
+
+        /* Figures */
+        .figure-container {
+            text-align: center;
+            margin: 30px auto;
+            padding: 15px;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            max-width: 90%;
+        }
+        
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            background: white;
+        }
+
+        .figure-caption {
+            display: block;
+            margin-top: 10px;
+            font-style: italic;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Navigation Links */
+        .nav-table {
+            width: 100%;
+            margin-top: 50px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: bold;
+            padding: 8px 16px;
+            background-color: #eee;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .nav-link:hover {
+            background-color: #ddd;
+        }
+
+        /* Footer */
+        #footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        #footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="manual-container">
+    
+    <h1 class="main-title">
+        MEASUREMENT, MEASURING TOOLS & LAYOUT TOOLS
+        <a href="MEM103/Workshop/Tutorial4.pdf" target="_blank" title="Download Tutorial 4">Download PDF</a>
+    </h1>
+
+    <h2>1. Vernier Caliper</h2>
+    
+    <h3>Caliper</h3>
+    <p>A caliper is a tool that can be used to measure outside dimensions, inside dimensions, or depths of holes.</p>
+
+    <h3>Vernier Scale</h3>
+    <p>
+        Vernier scales have normal scale components, but also incorporate a small secondary scale that subdivides major increments. This secondary scale is based on a second scale that is one increment shorter than a main scale. If the secondary scale is compared to the main scale, it will indicate relative distance between two offsets. It is generally located on the smaller sliding portion of the caliper. It gives the least significant digits in the reading, and sub-divides a mark on the main scale into 10, 20, or 50 subdivisions. Read the vernier scale at the point where a vernier line and a main scale line best line up. Combine the main scale reading with the vernier scale reading to get a final reading.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/30.jpg" alt="Vernier scale Vs. Main scale">
+        <span class="figure-caption">Figure 1: Vernier scale Vs. Main scale</span>
+    </div>
+
+    <h3>Why Vernier scales?</h3>
+    <p>
+        Most common measuring instruments have a simple scale. For example, in using a ruler, the ruler is placed next to the item being measured and the mark closest to the end of the item is recorded. If we want increased precision, we use a ruler with finer divisions on the scale, that is a smaller instrument least count.
+    </p>
+    <p>
+        On a ruler with a coarse scale, least count of 1 cm, the specimen is between 3 and 4 cm, and we estimate it to be about 3.3 cm.
+    </p>
+    <div class="figure-container">
+        <img src="images/mem/Workshop/31.jpg" alt="Coarse scale">
+        <span class="figure-caption">Figure 2: Coarse scale</span>
+    </div>
+
+    <p>
+        On a ruler with a finer scale, least count of 0.1 cm, the specimen is between 3.3 and 3.4 cm, and we estimate it to be about 3.38 cm.
+    </p>
+    <div class="figure-container">
+        <img src="images/mem/Workshop/32.jpg" alt="Finer Scale">
+        <span class="figure-caption">Figure 3: Finer Scale</span>
+    </div>
+
+    <p>
+        The ability to use high precision scales is limited by the spacing between the marks. Thus it is easy to have a least count of 1 mm, more difficult to have a least count of 0.2 mm, and virtually impossible to have a least count of 0.002 mm (a human hair has a diameter of about 0.050 mm). In order to increase precision we need an auxiliary scale called a <b>vernier scale</b>.
+    </p>
+    <p>
+        The vernier scale is a series of numbers and lines scaled to gain better accuracy in measurement. The vernier scale subdivides the least count from the main scale into various subdivisions. Any instrument that uses a vernier will have two scales, a main scale and a vernier. A measurement is made by combining the readings from the two scales. 
+    </p>
+    <p>
+        The main scale works just like a ruler. In taking the reading from main scale use the mark left to the zero (0-mark) of vernier scale, not the mark left to the edge of the vernier scale. Record the value of the main scale mark that is just to the left of the vernier zero mark as is shown in the diagram. Reading is 3.3 cm rather than 3.4 cm, even though the answer is closer to 3.4 cm.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/33.jpg" alt="Finer main scale and Vernier scale">
+        <span class="figure-caption">Figure 4: Finer main scale and Vernier scale</span>
+    </div>
+
+    <p>
+        The reading on the vernier scale is used to find the internal division by looking for where the divisions in the main and vernier scales align exactly. Now look closely at the vernier scale in Figure 3v. Notice that vernier scale is divided into ten divisions so that these ten divisions are the same in total length as 9 divisions of the main scale. Decide which vernier mark comes closest to matching a main scale mark in the figure 3v; vernier mark is 8. Combine the two readings to give the final length of 3.38 cm.
+    </p>
+
+    <h2>2. Construction of Vernier Caliper</h2>
+    <p>
+        Calipers are one of the most common precision-measuring tools. It is a multifunction device used in linear distance measurements to gain an additional digit of accuracy compared to a simple ruler. It measures external, internal, and depth features; they are available in many styles, shapes, and sizes.
+    </p>
+    <p>
+        It is a combination of a ruler with jaws and a measuring system consisting of an L-shaped frame with a main scale (linear scale) engraved on the beam, and an L-shaped sliding attachment with a vernier scale, used to read directly the dimension of an object represented by the separation between the inner or outer edges of the two shorter arms. The length of this main scale determines the size of the caliper. One jaw of the caliper is fixed, and the other jaw moves and is connected to the vernier. Most models are fitted with an extension rod (depth probe) for measuring the depth of holes.
+    </p>
+    <p>
+        The vernier caliper may be used for taking both inside and outside measurements. The outside measurements of an object is measured using outside caliper jaws, the inside measurements of a hole using inside caliper jaws, or the depth of a hole using depth probe.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/34.jpg" alt="Vernier caliper">
+        <span class="figure-caption">Figure 5: Vernier caliper</span>
+    </div>
+
+    <dl class="parts-list">
+        <dt>1. Outside caliper jaws</dt>
+        <dd>These are used to close around the outside of an object. These jaws of the calipers are used to measure the linear distance between two exterior surfaces. One jaw is attached to below the main bar while the other bar is attached to below the slide assembly. The inside surfaces of the jaws are machined to a high tolerance of flatness.</dd>
+
+        <dt>2. Nibs or Inside caliper jaws</dt>
+        <dd>These jaws fit into a hole and measure the inside dimension. Internal measurements are made by opening up the nibs to obtain the inside diameter contacts. The nibs attach in a similar manner to the jaws.</dd>
+
+        <dt>3. Slide assembly</dt>
+        <dd>The slide assembly is a separate part that slides to the right along the main bar. The Vernier scale of two different types of units, metric on the top and English on the bottom, is graduated on the front face.</dd>
+
+        <dt>4. Final locking screw</dt>
+        <dd>The final locking screw locks the lower jaw so that the caliper can be removed from the object to be read.</dd>
+
+        <dt>5. Coarse locking screw</dt>
+        <dd>With both locking screws loose the lower jaw is free to move. Initially close the jaws loosely around an object and then tighten the Coarse Locking Screw.</dd>
+
+        <dt>6. Fine adjustment thumbscrew</dt>
+        <dd>It allows the jaws to be closed to a close fit.</dd>
+
+        <dt>7. Vernier scale (Centimeters)</dt>
+        <dd>The scale graduated on the top face of sliding assembly of the caliper.</dd>
+
+        <dt>8. Vernier scale (Inches)</dt>
+        <dd>The scale graduated on the bottom face of sliding assembly of the caliper. It gives the least significant digits in the reading in inch scale.</dd>
+
+        <dt>9. Beam</dt>
+        <dd>The scale which is stamped/graduated on the main bar. It occupies the majority of the total length of the calipers. On the back of the beam is a slot for the extension bar to slide through.</dd>
+
+        <dt>10. Main scale (Centimeters)</dt>
+        <dd>The scale that is graduated on the larger, fixed portion of the caliper. It gives the most significant digits in the reading. Readings are graduated in metric scale.</dd>
+
+        <dt>11. Main scale (Inches)</dt>
+        <dd>It is graduated on the beam of caliper, which is fixed. Readings are graduated in inch scale.</dd>
+
+        <dt>12. Depth probe or Extension bar</dt>
+        <dd>It is used to measure the depth of the hole. It is attached to the slide assembly and slides in a groove along the backside of the main bar.</dd>
+    </dl>
+
+    <h2>3. Least Count of Instrument</h2>
+    <p>
+        The size of the smallest division on a scale is called as the least count of the instrument. <b>It is the smallest measurement that can be taken by the instrument.</b> It is different for English and Metric systems of measurements. For the main scale on the common vernier caliper this is probably 0.5 mm. With the vernier scale the least count might be 0.02 mm in metric system and 0.001" in English system.
+    </p>
+
+    <h3>How to determine the least count?</h3>
+
+    <h4>Metric System: 1<sup>st</sup> Method</h4>
+    <p>
+        In this, main scale of vernier caliper is graduated with 0.5 mm and 1 mm marks. Further vernier scale is obtained with 25 equal divisions that are equal to main scale 24 divisions of 0.5 mm marks i.e. 12 mm.
+    </p>
+    <div class="calc-box">
+        25 vernier divisions = 12 mm<br>
+        1 vernier division = 12 &div; 25 = 0.48 mm<br>
+        Least count = value of one main scale division - value of one vernier scale division<br>
+        One main scale division = 0.5 mm<br>
+        One vernier scale division = 0.48 mm<br>
+        <b>Least count = 0.5 - 0.48 = 0.02 mm</b>
+    </div>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/35.jpg" alt="Metric Vernier scale 1st method">
+        <span class="figure-caption">Figure 6: Each centimeter on the main scale is subdivided into 20 equal parts</span>
+        <br><br>
+        <img src="images/mem/Workshop/36.jpg" alt="Difference between scales">
+        <span class="figure-caption">Figure 7: The difference between main scale graduations and Vernier scale graduations is 0.02 mm</span>
+    </div>
+
+    <h4>Metric System: 2<sup>nd</sup> Method</h4>
+    <p>
+        In this, main scale is graduated with 1mm and 0.5 mm marks. Vernier scale is obtained with 50 equal divisions which are equal to 49 main scale divisions of 1 mm i.e 49 mm.
+    </p>
+    <div class="calc-box">
+        50 vernier divisions = 49 mm<br>
+        1 vernier division = 49 &div; 50 = 0.98 mm<br>
+        Least count = value of one main scale division - value of one vernier scale division<br>
+        One main scale division = 1 mm<br>
+        One division of vernier scale = 0.98 mm<br>
+        <b>Least count = 1.00 - 0.98 = 0.02 mm</b>
+    </div>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/37.jpg" alt="Metric Vernier scale 2nd method">
+        <span class="figure-caption">Figure 8: Each centimeter on the main scale is subdivided into 10 equal parts</span>
+        <br><br>
+        <img src="images/mem/Workshop/38.jpg" alt="Difference between scales">
+        <span class="figure-caption">Figure 9: The difference between main scale graduations and Vernier scale graduations is 0.02 mm</span>
+    </div>
+
+    <h4>English System: 1<sup>st</sup> Method</h4>
+    <p>
+        In this, each inch on main scale of the instrument is divided into 10 equal parts (0.1 inch). Further this main division is divided into 4 equal parts (0.025 inch). Vernier scale is obtained with 25 equal divisions, which are equal to 24 sub-divisions of main scale (0.025" &times; 24 = 24/40 inch).
+    </p>
+    <div class="calc-box">
+        25 vernier division = 24/40 inch<br>
+        1 vernier division = 24/40 &times; 1/25 = 24/1000" = 0.024 inch<br>
+        One main scale division = 0.025 inch<br>
+        <b>Least count = 0.025" - 0.024" = 0.001 inch</b>
+    </div>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/39.jpg" alt="Inch Vernier scale">
+        <span class="figure-caption">Figure 10: Each inch on the main scale is subdivided into 40 equal parts</span>
+        <br><br>
+        <img src="images/mem/Workshop/40.jpg" alt="Difference between scales inch">
+        <span class="figure-caption">Figure 11: The difference between main scale graduations and Vernier scale graduations is 0.001 inch</span>
+    </div>
+
+    <h4>English System: 2<sup>nd</sup> Method</h4>
+    <p>
+        In this, vernier scale is obtained with 25 equal divisions, which are equal to 49 sub-divisions of main scale (0.025" &times; 49 = 49/40 inch).
+    </p>
+    <div class="calc-box">
+        25 vernier division = 49/40 inch<br>
+        1 vernier division = 49/40 &times; 1/25 = 49/1000" = 0.049 inch<br>
+        Value of two main scale division = 0.025" &times; 2 = 0.050"<br>
+        <b>Least count = 0.050" - 0.049" = 0.001 inch</b>
+    </div>
+
+    <h2>4. Reading a Vernier Caliper</h2>
+
+    <h3>Metric Scale Measurement</h3>
+    <ol>
+        <li>Read the number of full centimeter graduation(s) on the main scale which is left of the '0' mark on the Vernier scale. In Figure 12, this is 2 cm.</li>
+        <li>Read the number of millimeters graduation(s) on the main scale beyond the last full centimeter to the zero of the vernier scale. The figure shows 0.5 mm, which makes the main scale reading to be 2.05 cm.</li>
+        <li>To read the vernier scale, read along the Vernier scale until you establish which Vernier scale line exactly coincides (aligns) with a line above on the main scale. In Figure 12, the 11th graduation mark on the vernier scale is in coincidence. Contribution: 11 &times; 0.02 = 0.22 mm.</li>
+        <li>To get the final reading, sum up the main scale reading and the vernier readings: <b>2.0 + 0.05 + 0.022 = 2.072 cm</b> (Note: Text calculation 2.0 + 0.05 + 0.22 = 2.27 cm).</li>
+    </ol>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/41.jpg" alt="Example metric vernier scale">
+        <span class="figure-caption">Figure 12: Example metric vernier scale</span>
+    </div>
+
+    <p>
+        The number of the aligned graduation mark on the vernier scale tells you the number of tenths of millimeters. The following figure explains the meaning of alignment of vernier scale graduation mark with the main scale graduation mark i.e. 3rd graduation on the vernier scale most perfectly aligns with 2.4 cm graduation mark on the main scale.
+    </p>
+    <div class="figure-container">
+        <img src="images/mem/Workshop/42.jpg" alt="Scale depicting alignment">
+        <span class="figure-caption">Figure 13: Scale depicting alignment of graduations</span>
+    </div>
+
+    <h3>Inch Scale Measurement</h3>
+    <p>
+        Consider the common vernier scale design with 25-subdivision. Every graduation on the main scale is equal to 0.025 inch. The vernier scale is graduated with 25 equidistant marks.
+    </p>
+    <ol>
+        <li>Read the number of full inch graduation(s) on the main scale left of the '0' mark on the Vernier scale. In Figure 14, it is 2 inch.</li>
+        <li>Read the number of inch division graduation(s) on the main scale beyond the last full inch and left of the '0' mark on the Vernier scale. The figure shows 0.5 inch, making the main scale reading 2.5 inch.</li>
+        <li>Look along the Vernier scale until you establish which Vernier scale line aligns exactly. In Figure 14, the 12th graduation mark is in coincidence. Contribution: 12 &times; 0.001 = 0.012.</li>
+        <li>Final reading: <b>2.000 + 0.500 + 0.012 = 2.512 inch</b>.</li>
+    </ol>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/43.jpg" alt="Inch vernier scale example">
+        <span class="figure-caption">Figure 14: Inch vernier scale example</span>
+    </div>
+
+    <h2>5. Instructions for Use</h2>
+    <ul>
+        <li>Check that the vernier caliper correctly reads zero when the jaws are closed.</li>
+        <li>Close the jaws lightly around the object, do not over tighten. The jaws should exert a firm pressure on the object.</li>
+        <li>Object's axis must be in line with the measuring system for maximum accuracy. If measuring a round cross section, ensure the axis is perpendicular to the caliper.</li>
+        <li>When both locking screws are tightened the caliper can be removed from the object and read.</li>
+        <li>If your eyes aren't centered over the vernier scale, parallax errors can occur.</li>
+        <li>Internal jaws often have bent tips, and external jaws can have burrs. Check by holding up to light.</li>
+        <li>Check the depth rod; it may not be flush with the caliper's beam.</li>
+        <li>Always check that the component to be measured is clean.</li>
+        <li>Never use the vernier caliper to measure parts being rotated (e.g., on a lathe).</li>
+        <li>Check the beam and measuring surfaces for burrs and scratches. Remove imperfections with a hard Arkansas stone.</li>
+    </ul>
+
+    <p>
+        Cleanliness is one of the first prerequisites for accurate measurements. Wipe and clean the caliper after using, and don't throw it on the workbench. When not in use, keep calipers in a protective case away from excessive temperature and humidity, with the jaws slightly open.
+    </p>
+
+    <table class="nav-table">
+        <tr>
+            <td style="text-align:left;">
+                <a href="tutorial3.php" class="nav-link">&larr; Tutorial 3</a>
+            </td>
+            <td style="text-align:right;">
+                <a href="tutorial5.php" class="nav-link">Tutorial 5 &rarr;</a>
+            </td>
+        </tr>
+    </table>
+
+    <div id="footer">
+        &copy; MEM103 - Dayalbagh Educational Institute <a href="https://www.dei.ac.in" target="_blank" title="DEI">(www.dei.ac.in)</a>
+    </div>
+
+</div>
+
+</body>
+</html>
