@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the primary function of a Cylindrical Square?",
+      "question": "Q1: What is the primary function of a Cylindrical Square?",
       "answers": {
         "a": "To measure the diameter of a cylinder.",
         "b": "To check the squareness of two planes.",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the accuracy of the Vernier scale on a standard Bevel Protractor?",
+      "question": "Q2: What is the accuracy of the Vernier scale on a standard Bevel Protractor?",
       "answers": {
         "a": "1 degree",
         "b": "0.5 degree",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which formula is used to calculate the height (H) for a Sine Bar setting?",
+      "question": "Q3: Which formula is used to calculate the height (H) for a Sine Bar setting?",
       "answers": {
         "a": "H = L / sin(theta)",
         "b": "H = L * cos(theta)",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Why is Layout Dye (or wet chalk) applied to a workpiece surface?",
+      "question": "Q4: Why is Layout Dye (or wet chalk) applied to a workpiece surface?",
       "answers": {
         "a": "To prevent rust.",
         "b": "To lubricate the cutting tool.",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What are the two main parts of an Engineer's Try Square?",
+      "question": "Q5: What are the two main parts of an Engineer's Try Square?",
       "answers": {
         "a": "Stock (Beam) and Blade",
         "b": "Head and Spindle",
@@ -87,7 +87,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which tool is specifically designed to scribe lines parallel to the edge of a workpiece?",
+      "question": "Q6: Which tool is specifically designed to scribe lines parallel to the edge of a workpiece?",
       "answers": {
         "a": "Divider",
         "b": "Hermaphrodite Caliper",
@@ -104,7 +104,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the primary advantage of a Granite Surface Plate over a Cast Iron one?",
+      "question": "Q7: What is the primary advantage of a Granite Surface Plate over a Cast Iron one?",
       "answers": {
         "a": "It is magnetic.",
         "b": "It is lighter.",
@@ -121,7 +121,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the included angle of the V-groove in a standard V-Block?",
+      "question": "Q8: What is the included angle of the V-groove in a standard V-Block?",
       "answers": {
         "a": "45 degrees",
         "b": "60 degrees",
@@ -138,7 +138,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "At what angle should a scriber be held against the rule while marking?",
+      "question": "Q9: At what angle should a scriber be held against the rule while marking?",
       "answers": {
         "a": "90 degrees",
         "b": "45 degrees",
@@ -155,7 +155,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which punch has a sharp 90-degree conical tip and is used to mark the center of a hole for drilling?",
+      "question": "Q10: Which punch has a sharp 90-degree conical tip and is used to mark the center of a hole for drilling?",
       "answers": {
         "a": "Prick Punch",
         "b": "Drift Punch",
