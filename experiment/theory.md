@@ -1,235 +1,142 @@
-# Course: MEM103 – Workshop Practice  
-## Module: Bench Work Fitting & Metrology  
+<h2>Module: Bench Work Fitting & Metrology</h2>
 
----
+<hr>
 
-# 1. Introduction to Metrology
+<h2>1. Introduction to Metrology</h2>
 
-**Metrology** is the science of measurement. In mechanical workshops, accurate measurement ensures mass production, quality control, and interchangeability.
+<p><strong>Metrology</strong> is the science of measurement. Accurate measurement ensures mass production, quality control, and interchangeability.</p>
 
-## 1.1 Fundamental Concepts
+<h3>1.1 Fundamental Concepts</h3>
+<ul>
+<li><strong>Interchangeability:</strong> Ability of parts to be replaced without custom fitting.</li>
+<li><strong>Accuracy:</strong> Closeness of measured value to the true value.</li>
+<li><strong>Precision:</strong> Closeness of repeated measurements to each other.</li>
+<li><strong>Least Count (Resolution):</strong> Smallest measurable value of an instrument.</li>
+<li><strong>Parallax Error:</strong> Error caused when the scale is viewed from an angle.</li>
+</ul>
 
-- **Interchangeability:** Ability of parts to be replaced without custom fitting.
-- **Accuracy:** Closeness of measured value to the true value.
-- **Precision:** Closeness of repeated measurements to each other.
-- **Least Count (Resolution):** Smallest measurable value of an instrument.
-- **Parallax Error:** Error caused when the scale is viewed from an angle instead of directly perpendicular.
+<hr>
 
----
+<h2>2. Linear Measurement Tools</h2>
 
-# 2. Linear Measurement Tools
+<h3>2.1 Steel Rule</h3>
+<ul>
+<li>Material: Spring steel / Stainless steel</li>
+<li>Metric Graduation: 0.5 mm or 1 mm</li>
+<li>English Graduation: 1/64 inch</li>
+</ul>
+<p><strong>Note:</strong> Do not measure from worn edges. Start from 1 cm or 1 inch mark.</p>
 
-## 2.1 Steel Rule
+<h3>2.2 Vernier Caliper</h3>
 
-- Material: Spring steel / Stainless steel  
-- Metric graduation: $0.5 \, \text{mm}$ or $1 \, \text{mm}$  
-- English graduation: $\frac{1}{64} \, \text{inch}$  
+<p>Used to measure Outside Diameter (OD), Inside Diameter (ID), and Depth.</p>
 
-**Note:** Do not measure from worn edges. Start from $1 \, \text{cm}$ or $1 \, \text{inch}$ mark.
+<p><strong>Metric Least Count Calculation:</strong></p>
+<p>1 Main Scale Division (MSD) = 1.0 mm</p>
+<p>1 Vernier Scale Division (VSD) = 0.98 mm</p>
+<p>Least Count = 1 MSD − 1 VSD</p>
+<p>Least Count = 1.0 − 0.98 = <strong>0.02 mm</strong></p>
 
----
+<p><strong>General Formula:</strong></p>
+<p>Least Count = Value of 1 MSD ÷ Total Vernier Divisions</p>
 
-## 2.2 Vernier Caliper
+<p><strong>English Vernier Least Count:</strong> 0.001 inch</p>
 
-Used to measure:
-- Outside Diameter (OD)
-- Inside Diameter (ID)
-- Depth
+<h3>2.3 Micrometer (Screw Gauge)</h3>
 
-### Least Count (Metric)
+<p>Works on screw-nut principle.</p>
 
-$$
-\text{1 MSD} = 1.0 \, \text{mm}
-$$
+<p><strong>Least Count Calculation:</strong></p>
+<p>Pitch = 0.5 mm</p>
+<p>Number of Thimble Divisions = 50</p>
+<p>Least Count = Pitch ÷ Number of Divisions</p>
+<p>Least Count = 0.5 ÷ 50 = <strong>0.01 mm</strong></p>
 
-$$
-\text{1 VSD} = 0.98 \, \text{mm}
-$$
+<ul>
+<li>Outside Micrometer</li>
+<li>Inside Micrometer</li>
+<li>Depth Micrometer</li>
+</ul>
 
-$$
-\text{Least Count} = 1 \text{ MSD} - 1 \text{ VSD}
-$$
+<h3>2.4 Vernier Height Gauge</h3>
+<p>Used with a surface plate for marking precise heights.</p>
 
-$$
-\text{LC} = 1.0 - 0.98 = 0.02 \, \text{mm}
-$$
+<hr>
 
-### General Formula
+<h2>3. Angular Measurement Tools</h2>
 
-$$
-\text{LC} = \frac{\text{Value of 1 MSD}}{\text{Total Vernier Divisions}}
-$$
+<h3>3.1 Engineer’s Try Square</h3>
+<p>Used to check squareness: <strong>90°</strong></p>
 
-### English Vernier
+<h3>3.2 Universal Bevel Protractor</h3>
+<p>Accuracy: <strong>5′</strong> (minutes)</p>
+<p>1° = 60′</p>
+<p>5′ = 1/12°</p>
 
-$$
-\text{LC} = 0.001 \, \text{inch}
-$$
+<h3>3.3 Sine Bar</h3>
+<p>L = Distance between rollers</p>
+<p>H = Height of slip gauges</p>
+<p>θ = Angle</p>
 
----
+<p>sin θ = H / L</p>
+<p>θ = sin<sup>−1</sup>(H / L)</p>
 
-## 2.3 Micrometer (Screw Gauge)
+<hr>
 
-Works on screw-nut principle.
+<h2>4. Transfer & Comparison Tools</h2>
 
-### Parts
+<ul>
+<li>Outside Caliper</li>
+<li>Inside Caliper</li>
+<li>Jenny (Hermaphrodite) Caliper</li>
+<li>Telescopic Gauge</li>
+<li>Small Hole Gauge</li>
+<li>Feeler Gauge</li>
+<li>Dial Indicator</li>
+</ul>
 
-- Frame  
-- Anvil  
-- Spindle  
-- Sleeve  
-- Thimble  
-- Ratchet Stop  
+<hr>
 
-### Least Count
+<h2>5. Layout (Marking Out) Theory</h2>
 
-Given:
-
-$$
-\text{Pitch} = 0.5 \, \text{mm}
-$$
-
-$$
-\text{Divisions} = 50
-$$
-
-$$
-\text{LC} = \frac{\text{Pitch}}{\text{Number of Divisions}}
-$$
-
-$$
-\text{LC} = \frac{0.5}{50} = 0.01 \, \text{mm}
-$$
-
-### Types
-
-- Outside Micrometer  
-- Inside Micrometer  
-- Depth Micrometer  
-
----
-
-## 2.4 Vernier Height Gauge
-
-Used with surface plate for marking heights accurately.
-
----
-
-# 3. Angular Measurement Tools
-
-## 3.1 Engineer’s Try Square
-
-Checks squareness:
-
-$$
-90^\circ
-$$
-
----
-
-## 3.2 Universal Bevel Protractor
-
-Accuracy:
-
-$$
-5' = \frac{1}{12}^\circ
-$$
-
-Where:
-
-$$
-1^\circ = 60'
-$$
-
----
-
-## 3.3 Sine Bar
-
-Let:
-
-- $L$ = Distance between rollers  
-- $H$ = Height of slip gauges  
-- $\theta$ = Angle  
-
-$$
-\sin \theta = \frac{H}{L}
-$$
-
-$$
-\theta = \sin^{-1}\left(\frac{H}{L}\right)
-$$
-
----
-
-# 4. Transfer & Comparison Tools
-
-- Outside Caliper  
-- Inside Caliper  
-- Jenny (Hermaphrodite) Caliper  
-- Telescopic Gauge  
-- Small Hole Gauge  
-- Feeler Gauge  
-- Dial Indicator  
-
----
-
-# 5. Layout (Marking Out) Theory
-
-Layout transfers drawing dimensions onto workpiece before machining.
-
-## 5.1 Datum
-
-Two adjacent surfaces filed flat and square:
-
-$$
-90^\circ
-$$
-
----
-
-## 5.2 Layout Tools
-
-- Surface Plate (Granite preferred)  
-- Layout Dye (Prussian Blue)  
-- Scriber  
-- Surface Gauge  
-- V-Block ($90^\circ$ groove)  
-- Angle Plate  
-
----
-
-# 6. Punches & Hammers
-
-## Prick Punch
-
-Point angle:
-
-$$
-30^\circ
-$$
-
-## Center Punch
-
-Point angle:
-
-$$
-90^\circ
-$$
-
-## Ball Peen Hammer
-
-- Flat face → Striking punches  
-- Peen face → Riveting  
-
----
-
-# 7. General Procedure for Bench Work
-
-1. Clean workpiece  
-2. Create datum at $90^\circ$  
-3. Apply layout dye  
-4. Mark dimensions  
-5. Punch lines and centers  
-6. Verify dimensions before machining  
-
----
+<h3>5.1 Datum</h3>
+<p>Two adjacent surfaces filed flat and square at <strong>90°</strong>.</p>
+
+<h3>5.2 Layout Tools</h3>
+<ul>
+<li>Surface Plate (Granite preferred)</li>
+<li>Layout Dye (Prussian Blue)</li>
+<li>Scriber</li>
+<li>Surface Gauge</li>
+<li>V-Block (90° groove)</li>
+<li>Angle Plate</li>
+</ul>
+
+<hr>
+
+<h2>6. Punches & Hammers</h2>
+
+<h3>Prick Punch</h3>
+<p>Point Angle: <strong>30°</strong></p>
+
+<h3>Center Punch</h3>
+<p>Point Angle: <strong>90°</strong></p>
+
+<h3>Ball Peen Hammer</h3>
+<ul>
+<li>Flat face – Striking punches</li>
+<li>Peen face – Riveting</li>
+</ul>
+
+<hr>
+
+<h2>7. General Procedure for Bench Work</h2>
+
+<ol>
+<li>Clean workpiece</li>
+<li>Create datum at 90°</li>
+<li>Apply layout dye</li>
+<li>Mark dimensions</li>
+<li>Punch lines and centers</li>
+<li>Verify dimensions before machining</li>
+</ol>
