@@ -1,6 +1,3 @@
-<h2>Module: Bench Work Fitting & Metrology</h2>
-
-<hr>
 
 <h2>1. Introduction to Metrology</h2>
 
