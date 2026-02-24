@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEM103 - Workshop Practice - Tutorial 12</title>
+    <style>
+        :root {
+            --primary-color: #003366; /* Academic Navy Blue */
+            --accent-color: #8c1515; /* Brick Red for emphasis */
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --border-color: #ddd;
+            --paper-color: #ffffff;
+        }
+
+        body {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Manual Container */
+        .manual-container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: var(--paper-color);
+            padding: 40px 60px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border: 1px solid #e1e1e1;
+        }
+
+        /* Headers */
+        h1.main-title {
+            color: var(--primary-color);
+            font-size: 24px;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1.main-title a {
+            font-size: 14px;
+            text-transform: none;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        h1.main-title a:hover {
+            background-color: #002244;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 35px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #555;
+            font-weight: 700;
+            margin-top: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        /* Text Elements */
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        b, strong {
+            color: var(--primary-color);
+        }
+
+        /* Lists */
+        ol, ul {
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 15px; /* Increased spacing to accommodate images between steps */
+        }
+
+        /* Figures */
+        .figure-container {
+            text-align: center;
+            margin: 20px auto;
+            padding: 15px;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            max-width: 90%;
+        }
+        
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            background: white;
+        }
+
+        .figure-caption {
+            display: block;
+            margin-top: 10px;
+            font-style: italic;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Navigation Links */
+        .nav-table {
+            width: 100%;
+            margin-top: 50px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: bold;
+            padding: 8px 16px;
+            background-color: #eee;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .nav-link:hover {
+            background-color: #ddd;
+        }
+
+        /* Footer */
+        #footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        #footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="manual-container">
+    
+    <h1 class="main-title">
+        MEASUREMENT, MEASURING TOOLS & LAYOUT TOOLS
+        <a href="MEM103/Workshop/Tutorial12.pdf" target="_blank" title="Download Tutorial 12">Download PDF</a>
+    </h1>
+
+    <h2>Try Square</h2>
+    <p>
+        The try square is used to mark a line at right angles to an edge and to check that the corners of a frame or joint are accurate. This is used to test that one surface is square (90 degrees) to another, and for marking out lines square to the face-side or face-edge. Engineering try squares have one thick side referred to as the beam (sometimes also referred as stock), which is held against the metal and one thin edge called the blade, against which the scriber is drawn. Engineer's squares have a carbon steel blade and beam. Using a square will need some practice.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/105.jpg" alt="Try Square">
+        <span class="figure-caption">Figure 1: Try Square</span>
+    </div>
+
+    <h3>Using Try Square</h3>
+    <ol>
+        <li>The beam (thick arm) is held against the reference edge and you scribe up against the blade (thin arm).</li>
+        
+        <li>You cannot do this flat on the bench because of the thick edge, so rest the work on something, to raise the thick edge clear, but make sure that the thick edge is up against the work.</li>
+        
+        <li>Hold the square with the thumb and the work with the fingers of the left hand.</li>
+        
+        <li>
+            For testing accuracy, Mark a line at 90&#176; to a true edge. Turn the stock over to see if the blade coincides with the line from the other side.
+            <div class="figure-container">
+                <img src="images/mem/Workshop/106.jpg" alt="Testing accuracy">
+                <span class="figure-caption">Figure 2</span>
+            </div>
+        </li>
+        
+        <li>
+            For checking 90 degrees lines, hold stock against edge and mark along blade and for 45 degrees lines, align angled stock against edge.
+            <div class="figure-container">
+                <img src="images/mem/Workshop/107.jpg" alt="Checking 90 and 45 degree lines">
+                <span class="figure-caption">Figure 3</span>
+            </div>
+        </li>
+        
+        <li>
+            Measuring internal angle, place the heel of the square into the angle. The edge of the blade should touch the other half of the joint along its entire length.
+            <div class="figure-container">
+                <img src="images/mem/Workshop/108.jpg" alt="Measuring internal angle">
+                <span class="figure-caption">Figure 4</span>
+            </div>
+        </li>
+        
+        <li>
+            For checking squareness, press beam (stock) against face side to see if inside edge of blade completely touches face being planed at right angles to it.
+            <div class="figure-container">
+                <img src="images/mem/Workshop/109.jpg" alt="Checking squareness">
+                <span class="figure-caption">Figure 5</span>
+            </div>
+        </li>
+    </ol>
+
+    <table class="nav-table">
+        <tr>
+            <td style="text-align:left;">
+                <a href="tutorial11.html" class="nav-link">&larr; Tutorial 11</a>
+            </td>
+            <td style="text-align:right;">
+                <a href="tutorial13.html" class="nav-link">Tutorial 13 &rarr;</a>
+            </td>
+        </tr>
+    </table>
+
+    <div id="footer">
+        &copy; MEM103 - Dayalbagh Educational Institute <a href="https://www.dei.ac.in" target="_blank" title="DEI">(www.dei.ac.in)</a> &nbsp;-&nbsp; <a href="../ajay/index.html" target="_blank" title="Profile">Ajay Kant Upadhyay</a>
+    </div>
+
+</div>
+
+</body>
+</html>

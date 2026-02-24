@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEM103 - Workshop Practice - Tutorial 14</title>
+    <style>
+        :root {
+            --primary-color: #003366; /* Academic Navy Blue */
+            --accent-color: #8c1515; /* Brick Red for emphasis */
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --border-color: #ddd;
+            --paper-color: #ffffff;
+        }
+
+        body {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Manual Container */
+        .manual-container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: var(--paper-color);
+            padding: 40px 60px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border: 1px solid #e1e1e1;
+        }
+
+        /* Headers */
+        h1.main-title {
+            color: var(--primary-color);
+            font-size: 24px;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1.main-title a {
+            font-size: 14px;
+            text-transform: none;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        h1.main-title a:hover {
+            background-color: #002244;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 35px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #555;
+            font-weight: 700;
+            margin-top: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        /* Text Elements */
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        b, strong {
+            color: var(--primary-color);
+        }
+
+        /* Lists */
+        ol, ul {
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Note Box */
+        .note-box {
+            background-color: #fffde7;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+
+        /* Figures */
+        .figure-container {
+            text-align: center;
+            margin: 30px auto;
+            padding: 15px;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            max-width: 90%;
+        }
+        
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            background: white;
+        }
+
+        .figure-caption {
+            display: block;
+            margin-top: 10px;
+            font-style: italic;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Navigation Links */
+        .nav-table {
+            width: 100%;
+            margin-top: 50px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: bold;
+            padding: 8px 16px;
+            background-color: #eee;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .nav-link:hover {
+            background-color: #ddd;
+        }
+
+        /* Footer */
+        #footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        #footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="manual-container">
+    
+    <h1 class="main-title">
+        MEASUREMENT, MEASURING TOOLS & LAYOUT TOOLS
+        <a href="MEM103/Workshop/Tutorial14.pdf" target="_blank" title="Download Tutorial 14">Download PDF</a>
+    </h1>
+
+    <h2>Using Surface Gage</h2>
+    <p>
+        A surface gage is used for many purposes, but is most often used for layout work. The gage can be used to scribe layout lines at any given distance parallel to the work surface. The spindle may be adjusted to any position with respect to the base and tightened in place with the spindle nut. The rocker adjusting screw provides for finer adjustment of the spindle by pivoting the spindle rocker bracket. The scriber can be positioned at any height and in any desired direction on the spindle by adjusting the scriber. A surface plate and combination square are needed to set the surface gage to the correct dimension.
+    </p>
+    
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/124.jpg" alt="Surface gage">
+        <span class="figure-caption">Figure 1: Surface gage</span>
+    </div>
+
+    <h3>Layout and taking measurements with a surface gage</h3>
+    <ol>
+        <li>Check the base to be sure it is free of burrs and clean. The scriber point must be sharp.</li>
+        <li>Position the spindle and scriber. They should be as close to the work as possible for the layout operation.</li>
+        <li>Place the reference face of the combination square on a surface plate. Firmly hold the square head. Slide the blade down until the end touches the surface plate.</li>
+        <li>Hold the surface gage lightly on the reference surface (surface plate). Bring the surface gage close to the square and roughly set the scriber. Turn the adjusting screw to move the scriber point to the required measurement.</li>
+        <li>Hold the workpiece securely. Position the surface gage near the work. Scribe the required line on the workpiece.</li>
+        <li>For measuring, turn the adjusting screw to position the scriber point exactly on the measured point.</li>
+        <li>Determine the measurement by reading the surface gage measurement with a line-graduated rule.</li>
+    </ol>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/125.jpg" alt="Setting a surface gage">
+        <span class="figure-caption">Figure 2: Setting a surface gage on surface plate to a specified height</span>
+        <br><br>
+        <img src="images/mem/Workshop/126.jpg" alt="Scribing parallel line">
+        <span class="figure-caption">Figure 3: Surface gage used to scribe parallel line</span>
+    </div>
+
+    <h2>Reference Planes</h2>
+    <p>
+        Very flat surfaces are needed when setting up height or angle measurements. This is because the measuring instruments are moved across the surface, and if the height varies, accuracy will suffer. Typical plates are made from cast iron, or granite. A typical plate might be 2 feet by 2 feet in area.
+    </p>
+
+    <h2>Surface Plate</h2>
+    <p>
+        A surface plate provides a true, smooth, plane surface. It is used in conjunction with surface and height gages as a level base on which the gages and the workpiece are placed to obtain accurate measurements. The flat surface is used as a reference point or surface. These plates are made of semi-steel or granite and should never be used for any job that would scratch or nick the surface.
+    </p>
+    <p>
+        The surface plate is an auxiliary accessory. As an accessory it is combined with other tools, measuring instruments and test equipment. It is universally used to provide a reference surface. The surface plate is essential to layout and measurement processes. Figure below provides examples of popular manufactured surface plates. A surface plate may be a simple, flat plate that has been accurately machined. The term usually refers to a plate that has been machined and scraped to an extreme accuracy or ground to a fine surface finish. The underside is honeycombed with a number of webbed sections. These prevent the surface plate from warping, thus providing a permanent flat surface.
+    </p>
+    
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/127.jpg" alt="Precision granite surface plates">
+        <span class="figure-caption">Figure 4: General styles of precision granite surface plates</span>
+    </div>
+
+    <p><b>The granite surface plate is used extensively today. Such a surface plate has a number of advantages over the cast iron type:</b></p>
+    <ol type="a">
+        <li>High degree of surface flatness.</li>
+        <li>Highly stable. Maintains surface flatness because there is no warpage and have lower thermal expansion.</li>
+        <li>Capability to remain flat, even when chipped. Burrs do not occur. Cast iron surface plates, by contrast, tend to crater and require rescraping.</li>
+        <li>Simplified maintenance. The surfaces are rust proof. They may be cleaned easily with soap and water, naphtha and other readily available cleaners.</li>
+    </ol>
+
+    <div class="note-box">
+        <b>Note:</b> Care and judgment must be exercised in placing measuring tools, instruments and workpieces on the surface plate. All should be clean and burr-free. The surface plate also must be checked continuously for burrs and carefully wiped clean.
+    </div>
+
+    <h2>V-Block</h2>
+    <p>
+        It is a rectangular block of hardened and ground steel. V-blocks are widely used to hold cylindrical parts for layout, for locating and drilling holes in cylindrical workpieces and also for checking the angles of 45 degree or 90 degree of workpiece surfaces. It has V-shaped angular surfaces, which form 90 degree angle and are central with the sides of the block. Round workpieces of different diameters may be centered and nested in V-blocks. Slot cut in both sides of the block enable the use of U-shaped clamp holding the cylindrical workpiece in the position.
+    </p>
+    
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/128.jpg" alt="V-block set">
+        <span class="figure-caption">Figure 5: V-block set</span>
+    </div>
+
+    <table class="nav-table">
+        <tr>
+            <td style="text-align:left;">
+                <a href="tutorial13.html" class="nav-link">&larr; Tutorial 13</a>
+            </td>
+            <td style="text-align:right;">
+                <a href="tutorial15.html" class="nav-link">Tutorial 15 &rarr;</a>
+            </td>
+        </tr>
+    </table>
+
+    <div id="footer">
+        &copy; MEM103 - Dayalbagh Educational Institute <a href="https://www.dei.ac.in" target="_blank" title="DEI">(www.dei.ac.in)</a> &nbsp;-&nbsp; <a href="../ajay/index.html" target="_blank" title="Profile">Ajay Kant Upadhyay</a>
+    </div>
+
+</div>
+
+</body>
+</html>
