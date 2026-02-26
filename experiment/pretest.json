@@ -2,35 +2,171 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Q1: What is the primary definition of 'Interchangeability' in the context of mass production?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The ability to repair a tool.",
+        "b": "The ability of parts to be substituted for one another without adjustment.",
+        "c": "The process of calibrating instruments.",
+        "d": "The ability to measure angular dimensions."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect.",
+        "b": "Correct. This allows for mass production. <a href='tutorial1.html'>Refer to Tutorial 1</a>",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q2: Which measuring error is caused by viewing the scale from an angle rather than directly perpendicular?",
+      "answers": {
+        "a": "Zero Error",
+        "b": "Calibration Error",
+        "c": "Parallax Error",
+        "d": "Systematic Error"
+      },
+      "explanations": {
+        "a": "Incorrect. Related to instrument start point.",
+        "b": "Incorrect.",
+        "c": "Correct. This is an observation error. <a href='tutorial2.html'>Refer to Tutorial 2</a>",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q3: In a Combination Set, which head is specifically used to locate the center of cylindrical workpieces?",
+      "answers": {
+        "a": "Square Head",
+        "b": "Protractor Head",
+        "c": "Center Head",
+        "d": "Rule Head"
+      },
+      "explanations": {
+        "a": "Incorrect. Used for 90 and 45 degree angles.",
+        "b": "Incorrect. Used for angular measurement.",
+        "c": "Correct. It has V-legs to find the center. <a href='tutorial3.html'>Refer to Tutorial 3</a>",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q4: What is the Least Count of a metric Vernier Caliper where 49mm on the main scale is divided into 50 vernier divisions?",
+      "answers": {
+        "a": "0.1 mm",
+        "b": "0.05 mm",
+        "c": "0.02 mm",
+        "d": "0.01 mm"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Incorrect.",
+        "c": "Correct. 1mm - (49/50)mm = 0.02mm. <a href='tutorial4.html'>Refer to Tutorial 4</a>",
+        "d": "Incorrect. Typical for micrometers."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q5: On a standard metric outside micrometer, what is the pitch of the spindle thread?",
+      "answers": {
+        "a": "1.0 mm",
+        "b": "0.5 mm",
+        "c": "0.01 mm",
+        "d": "0.25 mm"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Correct. One revolution moves the spindle 0.5 mm. <a href='tutorial5.html'>Refer to Tutorial 5</a>",
+        "c": "Incorrect. This is the least count.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q6: In an English (Inch) system micrometer, what is the value of one graduation on the thimble?",
+      "answers": {
+        "a": "0.001 inch",
+        "b": "0.025 inch",
+        "c": "0.100 inch",
+        "d": "0.010 inch"
+      },
+      "explanations": {
+        "a": "Correct. The thimble divides the 0.025 inch pitch into 25 parts. <a href='tutorial6.html'>Refer to Tutorial 6</a>",
+        "b": "Incorrect. This is one revolution.",
+        "c": "Incorrect. This is a main scale division.",
+        "d": "Incorrect."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Q7: How does the reading direction of a Depth Micrometer differ from an Outside Micrometer?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It reads exactly the same.",
+        "b": "It reads from right to left (reverse order).",
+        "c": "It reads only in millimeters.",
+        "d": "It has no thimble scale."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect.",
+        "b": "Correct. The graduations are in reverse order from the head to the thimble. <a href='tutorial7.html'>Refer to Tutorial 7</a>",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q8: Which gage is used to measure the clearance or gap between two surfaces?",
+      "answers": {
+        "a": "Pitch Gage",
+        "b": "Feeler Gage",
+        "c": "Small Hole Gage",
+        "d": "Telescoping Gage"
+      },
+      "explanations": {
+        "a": "Incorrect. Used for threads.",
+        "b": "Correct. Also known as a thickness gage. <a href='tutorial8.html'>Refer to Tutorial 8</a>",
+        "c": "Incorrect. Used for small holes.",
+        "d": "Incorrect. Used for internal diameters."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q9: Which tool would you use to transfer the internal measurement of a large bore to a micrometer?",
+      "answers": {
+        "a": "Pitch Gage",
+        "b": "Telescoping Gage",
+        "c": "Feeler Gage",
+        "d": "Center Head"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Correct. It expands in the hole and is then measured. <a href='tutorial8.html'>Refer to Tutorial 8</a>",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q10: What is the function of the 'Square Head' in a Combination Set?",
+      "answers": {
+        "a": "To measure angles with 1-degree accuracy.",
+        "b": "To find the center of a round bar.",
+        "c": "To check 90-degree and 45-degree angles.",
+        "d": "To measure the pitch of a screw."
+      },
+      "explanations": {
+        "a": "Incorrect. That is the Protractor head.",
+        "b": "Incorrect. That is the Center head.",
+        "c": "Correct. It has faces for square and miter angles. <a href='tutorial3.html'>Refer to Tutorial 3</a>",
+        "d": "Incorrect."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

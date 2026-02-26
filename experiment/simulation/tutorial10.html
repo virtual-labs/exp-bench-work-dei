@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEM103 - Workshop Practice - Tutorial 10</title>
+    <style>
+        :root {
+            --primary-color: #003366; /* Academic Navy Blue */
+            --accent-color: #8c1515; /* Brick Red for emphasis */
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --border-color: #ddd;
+            --paper-color: #ffffff;
+        }
+
+        body {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Manual Container */
+        .manual-container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: var(--paper-color);
+            padding: 40px 60px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border: 1px solid #e1e1e1;
+        }
+
+        /* Headers */
+        h1.main-title {
+            color: var(--primary-color);
+            font-size: 24px;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1.main-title a {
+            font-size: 14px;
+            text-transform: none;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        h1.main-title a:hover {
+            background-color: #002244;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 35px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #555;
+            font-weight: 700;
+            margin-top: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        /* Text Elements */
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        b, strong {
+            color: var(--primary-color);
+        }
+
+        /* Lists */
+        ol, ul {
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Calculation/Math Boxes */
+        .calc-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #003366;
+            padding: 15px;
+            margin: 15px 0;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 1.1em;
+            color: #444;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.9em;
+        }
+
+        th, td {
+            padding: 10px 15px;
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        /* Figures */
+        .figure-container {
+            text-align: center;
+            margin: 30px auto;
+            padding: 15px;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            max-width: 90%;
+        }
+        
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            background: white;
+        }
+
+        .figure-caption {
+            display: block;
+            margin-top: 10px;
+            font-style: italic;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Navigation Links */
+        .nav-table {
+            width: 100%;
+            margin-top: 50px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: bold;
+            padding: 8px 16px;
+            background-color: #eee;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .nav-link:hover {
+            background-color: #ddd;
+        }
+
+        /* Footer */
+        #footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        #footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="manual-container">
+    
+    <h1 class="main-title">
+        MEASUREMENT, MEASURING TOOLS & LAYOUT TOOLS
+        <a href="MEM103/Workshop/Tutorial10.pdf" target="_blank" title="Download Tutorial 10">Download PDF</a>
+    </h1>
+
+    <h2>Using Angle Measurement</h2>
+    <p>
+        An angle can be an expression of a rotation. Every angle can be expressed in either a clockwise or a counter-clockwise rotation. The checking of angle can be done with various tools as per the requirement. Generally Plate Protractor, Bevel protractor, V-Block and sine bar are used.
+    </p>
+
+    <h3>Plate Protractor</h3>
+    <p>
+        The simplest angle-measuring device used in the machining industry is the plate protractor. The plate protractor is capable of measuring to within 1-degree. The flat back of the plate protractor makes it especially useful for layout work.
+    </p>
+    
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/99.jpg" alt="Bevel protractor">
+        <span class="figure-caption">Figure 1: Bevel protractor</span>
+    </div>
+
+    <h3>Bevel Protractor</h3>
+    <p>
+        The bevel protractor picks up where the blade protractor leaves off. The bevel protractor is designed for precision measuring and layout of precision angles.
+    </p>
+    <p>
+        The bevel protractor consists of an adjustable blade with a graduated dial (main scale). The blade is usually 12 inches long. The main component of the bevel protractor is the (dial) main scale. The dial is graduated in degrees through a complete circle of 360<sup>o</sup>. The dial (main scale) is graduated into four 90-degree components i.e. the main scale is numbered to read from 0 to 90 degrees and then back from 90 degrees to 0.
+    </p>
+    <p>
+        As with other vernier measuring tools, the vernier scale of the bevel protractor allows the tool to divide each degree into smaller increments. The vernier scale is used for accurate angle adjustments and is accurate to 5 minutes or 1/12<sup>o</sup>. The vernier scale is divided into 24 equal graduations, 12 graduations on either side of the zero. Each graduation on the vernier scale is, therefore, one-twelfth of a degree.
+    </p>
+    
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/100.jpg" alt="Measuring an angle with bevel protractor">
+        <span class="figure-caption">Figure 2: Measuring an angle with bevel protractor</span>
+    </div>
+
+    <p>
+        The universal bevel protractor is capable of measuring obtuse angles as well as acute angles when accompanied with the correct attachments. Look at figure below to give you an idea as to the uses of the universal bevel protractor.
+    </p>
+    
+
+[Image of universal bevel protractor]
+
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/101.jpg" alt="Universal bevel protractor usage">
+        <span class="figure-caption">Figure 3: When reading from 90 degrees, make sure to note the positions where the angle and the supplement are formed</span>
+    </div>
+
+    <h3>Using the bevel protractor</h3>
+    <ol>
+        <li>The blade of the protractor is held firmly in position and clamped.</li>
+        <li>Behind the protractor there should be arrangement of sufficient light to see that it is properly set.</li>
+        <li>Check that the protractor is correctly aligned with respect to the angle being measured.</li>
+        <li>To read the protractor, note where the zero on the vernier scale lines up with the degrees on the dial.</li>
+        <li>The degrees are read directly from the main scale while the minutes are read on the vernier scale.</li>
+        <li>Always read the vernier in the same direction that you read the dial.</li>
+    </ol>
+    <p>
+        Any angle can be measured with the vernier bevel protractor, but you have to be careful to note which part of a full circle are you measuring. For every position of the bevel protractor, four angles are formed. Two of the angles can be read directly on the main scale and the vernier scale while the other two are supplemental angles. Keep track of the obtuse and acute angles and try to read from zero whenever possible. There is no general rule for use, just keep in mind what you are adding to 90 degrees to make up the angle being measured.
+    </p>
+
+    <h2>Sine Bar</h2>
+    <p>
+        The sine bar is used for accurately setting up work for machining or for inspection. Basically a sine bar is a bar of known length. When gauge blocks are placed under one end, the sine bar will tilt to a specific angle. Gage blocks are usually used for establishing the height. Rule for determining the height of the sine bar setting for a given angle: multiply the sine of the angle by the length of the sine bar. The sine of the angle is taken from the tables of trigonometric functions.
+    </p>
+    <p>
+        Limitation of the Sine bar is, when using a sine bar, the height setting is limited by the gauge block divisions available.
+    </p>
+    
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/102.jpg" alt="Set up of Sine bar">
+        <span class="figure-caption">Figure 4: Set up of Sine bar</span>
+        <br><br>
+        <img src="images/mem/Workshop/103.jpg" alt="Set up of Sine bar">
+        <span class="figure-caption">Figure 5: Set up of Sine bar</span>
+    </div>
+
+    <div class="calc-box">
+        Where,<br>
+        L = distance between centers of ground cylinders, generally 5 inches or 10 inches<br>
+        H = height of the gage blocks<br>
+        θ = Angle of the plate<br>
+        <strong>sin(θ) = H / L</strong>
+    </div>
+
+    <h3>Using Sine bar</h3>
+    <ol>
+        <li>Set the sine bar onto the granite surface plate.</li>
+        <li>Use the screws and knurled knobs to attach one workpiece to the sine bar in such a manner that the longest edge of the workpiece rests firmly on the surface plate and tighten the knurled knobs.</li>
+        <li>Ascertain that both rollers of the sine bar and the edge of the workpiece, along its full length, is in contact with the surface plate.</li>
+        <li>Calculate the height of the gage block stack that must be placed under one of the legs of the sine bar in order to make the top edge.</li>
+        <li>Check the parallelity with the test indicator mounted on a height gauge. If not parallel, change the height of the gauge block stack accordingly until parallelity is obtained.</li>
+        <li>Note that the hypotenuse, the length along the base of the sine bar, is five inches.</li>
+    </ol>
+
+    <h2>Degrees of accuracy of common measuring tools</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Measuring tool</th>
+                <th colspan="2">Degree of accuracy</th>
+            </tr>
+            <tr>
+                <th>Metric</th>
+                <th>English</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Steel Rule</td>
+                <td>0.5 mm</td>
+                <td>1/64 inch</td>
+            </tr>
+            <tr>
+                <td>Vernier caliper</td>
+                <td>0.5 mm with main scale and 0.02 mm with vernier scale</td>
+                <td>0.01 inch with main scale and 0.001 inch with vernier scale</td>
+            </tr>
+            <tr>
+                <td>Micrometer</td>
+                <td>0.02 mm</td>
+                <td>0.001 inch</td>
+            </tr>
+            <tr>
+                <td>Dial Indicator</td>
+                <td>0.002 mm</td>
+                <td>0.0001 inch</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="nav-table">
+        <tr>
+            <td style="text-align:left;">
+                <a href="tutorial9.html" class="nav-link">&larr; Tutorial 9</a>
+            </td>
+            <td style="text-align:right;">
+                <a href="tutorial11.html" class="nav-link">Tutorial 11 &rarr;</a>
+            </td>
+        </tr>
+    </table>
+
+    <div id="footer">
+        &copy; MEM103 - Dayalbagh Educational Institute <a href="https://www.dei.ac.in" target="_blank" title="DEI">(www.dei.ac.in)</a> &nbsp;-&nbsp; <a href="../ajay/index.html" target="_blank" title="Profile">Ajay Kant Upadhyay</a>
+    </div>
+
+</div>
+
+</body>
+</html>

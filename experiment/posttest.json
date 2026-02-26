@@ -2,35 +2,171 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Q1: What is the primary function of a Cylindrical Square?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To measure the diameter of a cylinder.",
+        "b": "To check the squareness of two planes.",
+        "c": "To scribe circles on a workpiece.",
+        "d": "To hold round stock for drilling."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect.",
+        "b": "Correct. It checks 'out-of-squareness'. <a href='tutorial9.html'>Refer to Tutorial 9</a>",
+        "c": "Incorrect.",
+        "d": "Incorrect. That is a V-block."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q2: What is the accuracy of the Vernier scale on a standard Bevel Protractor?",
+      "answers": {
+        "a": "1 degree",
+        "b": "0.5 degree",
+        "c": "5 minutes (1/12 degree)",
+        "d": "1 minute"
+      },
+      "explanations": {
+        "a": "Incorrect. This is plate protractor accuracy.",
+        "b": "Incorrect.",
+        "c": "Correct. The vernier divides each degree into 12 parts. <a href='tutorial10.html'>Refer to Tutorial 10</a>",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q3: Which formula is used to calculate the height (H) for a Sine Bar setting?",
+      "answers": {
+        "a": "H = L / sin(theta)",
+        "b": "H = L * cos(theta)",
+        "c": "H = L * sin(theta)",
+        "d": "H = L * tan(theta)"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Incorrect.",
+        "c": "Correct. Height equals Length times the Sine of the angle. <a href='tutorial10.html'>Refer to Tutorial 10</a>",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q4: Why is Layout Dye (or wet chalk) applied to a workpiece surface?",
+      "answers": {
+        "a": "To prevent rust.",
+        "b": "To lubricate the cutting tool.",
+        "c": "To make scribed lines highly visible.",
+        "d": "To harden the surface."
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Incorrect.",
+        "c": "Correct. It provides contrast against the shiny metal. <a href='tutorial11.html'>Refer to Tutorial 11</a>",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q5: What are the two main parts of an Engineer's Try Square?",
+      "answers": {
+        "a": "Stock (Beam) and Blade",
+        "b": "Head and Spindle",
+        "c": "Frame and Anvil",
+        "d": "Base and Scriber"
+      },
+      "explanations": {
+        "a": "Correct. The thick stock and thin blade. <a href='tutorial12.html'>Refer to Tutorial 12</a>",
+        "b": "Incorrect.",
+        "c": "Incorrect. Micrometer parts.",
+        "d": "Incorrect. Surface gage parts."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Q6: Which tool is specifically designed to scribe lines parallel to the edge of a workpiece?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Divider",
+        "b": "Hermaphrodite Caliper",
+        "c": "Outside Caliper",
+        "d": "Inside Caliper"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Used for circles.",
+        "b": "Correct. One leg rests on the edge, the other scribes. <a href='tutorial13.html'>Refer to Tutorial 13</a>",
+        "c": "Incorrect. Used for measuring outside diameter.",
+        "d": "Incorrect. Used for measuring inside diameter."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q7: What is the primary advantage of a Granite Surface Plate over a Cast Iron one?",
+      "answers": {
+        "a": "It is magnetic.",
+        "b": "It is lighter.",
+        "c": "It does not burr when chipped and is rust-proof.",
+        "d": "It is cheaper to manufacture."
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Incorrect. Granite is often heavier.",
+        "c": "Correct. It provides a stable, low-maintenance reference plane. <a href='tutorial14.html'>Refer to Tutorial 14</a>",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q8: What is the included angle of the V-groove in a standard V-Block?",
+      "answers": {
+        "a": "45 degrees",
+        "b": "60 degrees",
+        "c": "90 degrees",
+        "d": "120 degrees"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Incorrect.",
+        "c": "Correct. It is designed to hold cylindrical parts securely. <a href='tutorial14.html'>Refer to Tutorial 14</a>",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q9: At what angle should a scriber be held against the rule while marking?",
+      "answers": {
+        "a": "90 degrees",
+        "b": "45 degrees",
+        "c": "30 degrees",
+        "d": "15 degrees"
+      },
+      "explanations": {
+        "a": "Incorrect.",
+        "b": "Correct. Tipped outward slightly in the direction of movement. <a href='tutorial15.html'>Refer to Tutorial 15</a>",
+        "c": "Incorrect.",
+        "d": "Incorrect."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q10: Which punch has a sharp 90-degree conical tip and is used to mark the center of a hole for drilling?",
+      "answers": {
+        "a": "Prick Punch",
+        "b": "Drift Punch",
+        "c": "Center Punch",
+        "d": "Pin Punch"
+      },
+      "explanations": {
+        "a": "Incorrect. Prick punch has a 30-degree tip.",
+        "b": "Incorrect. Used for aligning holes.",
+        "c": "Correct. The 90-degree tip allows the drill to start properly. <a href='tutorial16.html'>Refer to Tutorial 16</a>",
+        "d": "Incorrect. Used for driving pins."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

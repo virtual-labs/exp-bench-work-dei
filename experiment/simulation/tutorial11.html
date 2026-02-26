@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEM103 - Workshop Practice - Tutorial 11</title>
+    <style>
+        :root {
+            --primary-color: #003366; /* Academic Navy Blue */
+            --accent-color: #8c1515; /* Brick Red for emphasis */
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --border-color: #ddd;
+            --paper-color: #ffffff;
+        }
+
+        body {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Manual Container */
+        .manual-container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: var(--paper-color);
+            padding: 40px 60px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border: 1px solid #e1e1e1;
+        }
+
+        /* Headers */
+        h1.main-title {
+            color: var(--primary-color);
+            font-size: 24px;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1.main-title a {
+            font-size: 14px;
+            text-transform: none;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        h1.main-title a:hover {
+            background-color: #002244;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 35px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #555;
+            font-weight: 700;
+            margin-top: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        /* Text Elements */
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        b, strong {
+            color: var(--primary-color);
+        }
+
+        /* Lists */
+        ol, ul {
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Note/Highlight Box */
+        .highlight-box {
+            background-color: #e3f2fd;
+            border-left: 4px solid #003366;
+            padding: 15px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        /* Figures */
+        .figure-container {
+            text-align: center;
+            margin: 30px auto;
+            padding: 15px;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            max-width: 90%;
+        }
+        
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            background: white;
+        }
+
+        .figure-caption {
+            display: block;
+            margin-top: 10px;
+            font-style: italic;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Tool List Styling */
+        .tool-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .tool-item {
+            background: #f8f9fa;
+            border: 1px solid #eee;
+            padding: 8px;
+            font-size: 0.9em;
+            border-radius: 3px;
+        }
+
+        /* Navigation Links */
+        .nav-table {
+            width: 100%;
+            margin-top: 50px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: bold;
+            padding: 8px 16px;
+            background-color: #eee;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .nav-link:hover {
+            background-color: #ddd;
+        }
+
+        /* Footer */
+        #footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        #footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="manual-container">
+    
+    <h1 class="main-title">
+        MEASUREMENT, MEASURING TOOLS & LAYOUT TOOLS
+        <a href="MEM103/Workshop/Tutorial11.pdf" target="_blank" title="Download Tutorial 11">Download PDF</a>
+    </h1>
+
+    <h2>Using Laying Out Work</h2>
+    <p>
+        Layout is a shop term, which means planning of the work on the surface of the material to be made into the finished part. It is the scribing of lines, circles, centers, and so forth, upon the surface of any material to serve as a guide to you in shaping and completing the job. This laying out procedure is similar to mechanical drawing but differs from it in one important respect. The lines on a mechanical drawing are used for reference purposes only and are not measured or transferred. The precision of the finished job depends largely on the care you take in making the layout.
+    </p>
+    
+    <div class="highlight-box">
+        <b>In layout work, main thing to remember is to measure twice, check twice, mark once, and cut once - cut metal can't be put back</b>, even a slight error in scribing a line or center may result in a corresponding or greater error in the finished workpiece. Therefore, all scribed lines should be exactly located and all scriber, divider, and punches should be exact and sharp.
+    </div>
+
+    <h2>Steps to Follow for Laying Out Work</h2>
+    <ol>
+        <li>Plan before beginning any layout, it is one of the most important steps. Different jobs may require different layout tools and procedure depending on the type of job.</li>
+        
+        <li>Follow the correct procedures for using the tools.</li>
+        
+        <li>Study the drawing carefully before you start laying out work on the workpiece.</li>
+        
+        <li>Check if enough material exists on all of surfaces of the workpiece to "clean up" or "machine out." Allow enough material to square the ends if required.</li>
+        
+        <li>The work surface must be cleaned and made free from scratches, nicks, and burrs that would impact the accuracy of the reference surface and the layout work being done on it.</li>
+        
+        <li>
+            Coat the workpiece with a "wet chalk" or layout dye. As shiny surface, found on most metals, makes it difficult to see the layout lines. Layout dye, when applied to the metal surface, makes it easier for the layout lines to be seen. Layout dye is usually blue and offers an excellent contrast between the metal and the layout lines.
+        </li>
+
+        <li>This makes the scribed lines highly visible, thus contributing to the accuracy of the work.</li>
+    </ol>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/104.jpg" alt="Coating the workpiece with layout dye">
+        <span class="figure-caption">Figure 1: Coating the workpiece with layout dye</span>
+    </div>
+
+    <ol start="8">
+        <li>Locate and scribe a reference or base line. All the other measurements should be made from this. If the workpiece already has one true edge, it can be used in place of the reference line.</li>
+        
+        <li>Using the base line as a reference line, locate and scribe all center lines for each circle, radius, or arc.</li>
+        
+        <li>Mark the points where the center lines intersect using a sharp prick punch. </li>
+        
+        <li>Scribe all circles, radii, and arcs using the divider or trammel. </li>
+        
+        <li>Using the protractor, locate and scribe all straight and angular lines. </li>
+        
+        <li>All layout lines should be clean, sharp, and fine.</li>
+        
+        <li>All scriber, divider, and punches should be exact and sharp.</li>
+    </ol>
+
+    <h2>Tools for Measuring and Layout</h2>
+    <p>
+        Layout and measuring devices are precision tools. They are carefully machined, accurately marked and, in many cases, are made up of very delicate parts. When using these tools, be careful not to drop, bend, or scratch them. To get a finished product with high accuracy it is very important to understand how to read, use, and care for these tools.
+    </p>
+    <p>
+        Tools used to do measuring and layout work include:
+    </p>
+    
+    <div class="tool-list">
+        <div class="tool-item">Precision steel rules</div>
+        <div class="tool-item">Layout rules</div>
+        <div class="tool-item">Vernier caliper</div>
+        <div class="tool-item">Micrometers</div>
+        <div class="tool-item">Squares</div>
+        <div class="tool-item">Bevel protractors</div>
+        <div class="tool-item">Surface gages</div>
+        <div class="tool-item">Height gages</div>
+        <div class="tool-item">Scribers</div>
+        <div class="tool-item">Hermaphrodite calipers</div>
+        <div class="tool-item">Dividers</div>
+        <div class="tool-item">Prick punches</div>
+        <div class="tool-item">Center punches</div>
+        <div class="tool-item">V-blocks</div>
+        <div class="tool-item">Adjustable parallels</div>
+        <div class="tool-item">Angle plates</div>
+        <div class="tool-item">Clamps</div>
+        <div class="tool-item">Hammers</div>
+        <div class="tool-item">Telescoping gage</div>
+        <div class="tool-item">Small hole gage</div>
+        <div class="tool-item">Feeler gage</div>
+        <div class="tool-item">Pitch gage</div>
+    </div>
+    
+    <p>These layout tools are described in the following section.</p>
+
+    <table class="nav-table">
+        <tr>
+            <td style="text-align:left;">
+                <a href="tutorial10.html" class="nav-link">&larr; Tutorial 10</a>
+            </td>
+            <td style="text-align:right;">
+                <a href="tutorial12.html" class="nav-link">Tutorial 12 &rarr;</a>
+            </td>
+        </tr>
+    </table>
+
+    <div id="footer">
+        &copy; MEM103 - Dayalbagh Educational Institute <a href="https://www.dei.ac.in" target="_blank" title="DEI">(www.dei.ac.in)</a> &nbsp;-&nbsp; <a href="../ajay/index.html" target="_blank" title="Profile">Ajay Kant Upadhyay</a>
+    </div>
+
+</div>
+
+</body>
+</html>

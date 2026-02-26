@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEM103 - Workshop Practice - Tutorial 5</title>
+    <style>
+        :root {
+            --primary-color: #003366; /* Academic Navy Blue */
+            --accent-color: #8c1515; /* Brick Red for emphasis */
+            --bg-color: #f9f9f9;
+            --text-color: #333;
+            --border-color: #ddd;
+            --paper-color: #ffffff;
+        }
+
+        body {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Manual Container */
+        .manual-container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: var(--paper-color);
+            padding: 40px 60px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border: 1px solid #e1e1e1;
+        }
+
+        /* Headers */
+        h1.main-title {
+            color: var(--primary-color);
+            font-size: 24px;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1.main-title a {
+            font-size: 14px;
+            text-transform: none;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        h1.main-title a:hover {
+            background-color: #002244;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 35px;
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: #555;
+            font-weight: 700;
+            margin-top: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        /* Text Elements */
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        b {
+            color: var(--primary-color);
+        }
+
+        i {
+            color: #555;
+        }
+
+        /* Lists */
+        ol, ul {
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Definition Lists */
+        .parts-list dt {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-top: 15px;
+        }
+        .parts-list dd {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        /* Note Box */
+        .note-box {
+            background-color: #fffde7;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+
+        /* Calculation/Math Boxes */
+        .calc-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #003366;
+            padding: 15px;
+            margin: 15px 0;
+            font-family: Consolas, monospace;
+            font-size: 0.95em;
+            color: #444;
+        }
+
+        /* Figures */
+        .figure-container {
+            text-align: center;
+            margin: 30px auto;
+            padding: 15px;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            max-width: 90%;
+        }
+        
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            background: white;
+        }
+
+        .figure-caption {
+            display: block;
+            margin-top: 10px;
+            font-style: italic;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Navigation Links */
+        .nav-table {
+            width: 100%;
+            margin-top: 50px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: bold;
+            padding: 8px 16px;
+            background-color: #eee;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .nav-link:hover {
+            background-color: #ddd;
+        }
+
+        /* Footer */
+        #footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        #footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="manual-container">
+    
+    <h1 class="main-title">
+        MEASUREMENT, MEASURING TOOLS & LAYOUT TOOLS
+        <a href="MEM103/Workshop/Tutorial5.pdf" target="_blank" title="Download Tutorial 5">Download PDF</a>
+    </h1>
+
+    <h2>Using Micrometers</h2>
+    
+    <h3>Micrometers</h3>
+    <p>
+        Micrometers, invented by William Gascoigne in the 17th century, are often used to measure diameters of wires and spheres. Micrometers are the most commonly used variable reading hand tools for measuring small lengths, such as the thickness of a wire, outside diameters, inside diameters, depths and grooves and are based on the threaded screw principle. Micrometer generally provides greater precision than a caliper. Measurement within 0.002 mm or 0.0001" can be taken with vernier micrometer. However, micrometer can measure only a smaller range of lengths.
+    </p>
+    <p>
+        The micrometers incorporate two basic scales. One is a linear scale to measure directly the axial advancement of the spindle and is usually identical to the pitch of the micrometer screw. Other is a circumferential scale that indicates the amount of partial rotation applied to the barrel (sleeve) of the micrometer.
+    </p>
+
+    <h3>Principle</h3>
+    <p>
+        Micrometer scale is based on the thread principle, as a thread is turned, a large motion on the outside of the thread will result in a very small advance in the position of the thread. The operation of micrometers is based on magnification using threads. A large movement on the outside of the micrometer thimble will result in a small motion of the sleeve.
+    </p>
+    <p>
+        As circular movement of a threaded spindle assembly is turned, the end of the spindle moves toward or away from the fixed anvil. The distance of movement per revolution depends on the pitch of the threaded spindle. The pitch is number of threads per unit length. Generally the unit length is chosen to be either 25mm or 1inch.
+    </p>
+
+    <h3>Types of Micrometer</h3>
+    <p>The different types of micrometer available for various applications are:</p>
+    <ol>
+        <li>Outside micrometer (micrometer caliper)</li>
+        <li>Inside micrometer</li>
+        <li>Depth micrometer</li>
+    </ol>
+
+    <h2>Least Count of Micrometer</h2>
+    <p>
+        The smallest measurement that can be taken by the micrometer is called its least count. It is different in English and Metric systems of measurements.
+    </p>
+
+    <h3>Metric System</h3>
+    
+    <div class="figure-container">
+        <img src="images/mem/Workshop/44.jpg" alt="Head of Micrometer in Metric system">
+        <span class="figure-caption">Figure 1: Head of Micrometer in Metric system</span>
+    </div>
+
+    <p>
+        In metric system the longitudinal line (index line) on the barrel (sleeve) is graduated in millimeters with 25 equidistant marks from 1 to 25 millimeters, and each millimeter is subdivided in half-millimeter and graduated above or below the index line, 0.5 millimeter graduations are known as subdivisions.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/45.jpg" alt="Each millimeter subdivided into half millimeter">
+        <span class="figure-caption">Figure 2: Each millimeter subdivided into half millimeter</span>
+    </div>
+
+    <p>
+        Inside the sleeve, a spindle is threaded with 50 threads in 25 mm. These threads have a pitch of 0.5 mm.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/46.jpg" alt="Pitch of spindle in metric system">
+        <span class="figure-caption">Figure 3: Pitch of spindle in metric system</span>
+    </div>
+
+    <p>
+        The beveled edge of the moving thimble is graduated around with 50 equal divisions, each graduation of 0.01mm. Every fifth line is numbered from 0 to 50.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/47.jpg" alt="Circumferential scale on the thimble">
+        <span class="figure-caption">Figure 4: Circumferential scale on the thimble is graduated with 50 equal divisions each of 0.01mm</span>
+    </div>
+
+    <p>
+        Each complete revolution of the thimble will expose another graduation (mark) on the sleeve (barrel) and advances the spindle towards or away from anvil by 0.5 millimeters. For instance, a partial revolution from one thimble mark to the next is 1/50th of a revolution, i.e. 1/50 × 0.5. This moves the spindle by 0.01 millimeter.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/48.jpg" alt="One revolution of thimble">
+        <span class="figure-caption">Figure 5: One revolution of thimble in metric system translates the spindle by 0.5 mm</span>
+    </div>
+
+    <p>
+        This means each graduation on the thimble is equal to 1/50 of 0.5 millimeter or 0.01 millimeter. Thus least count of metric micrometer is 0.01 mm.
+    </p>
+
+    <div class="note-box">
+        <b>Note:</b> <i>It is important to understand that each micrometer in metric system only measures just 25 millimeters. Regardless of the size of the micrometer, the length of the spindle is always 25 mm. If you need to measure something that is in the range of 18 mm, you will have to use a micrometer that measures from 0 to 25 mm. If you need to measure something that is in the area of 35 mm, you will have to use a micrometer that measures from 25 to 50 mm. In metric system Micrometer sizes are classified as 0 to 25 mm, 25 to 50 mm, 50 to 75 mm etc., so each size of micrometer measures just 25 mm. The size of the micrometer is usually indicated on the frame.</i>
+    </div>
+
+    <h2>Reading a Metric System Micrometer</h2>
+    <p>
+        There are two separate rows of lines on the sleeve of the metric micrometer. The lower row represents whole millimeter graduations i.e. 1 mm, 2 mm, 3 mm etc. and the upper row represents half-millimeter i.e. each graduation (mark) of 0.5 mm. Each complete turn of the thimble moves the spindle 0.5 mm. The circumferential scale on the thimble is separated into 50 equal divisions each of 0.01 mm.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/49.jpg" alt="Spacing between graduations">
+        <span class="figure-caption">Figure 6: Spacing between graduations on the barrel and thimble</span>
+    </div>
+
+    <p>The metric micrometer reading is established by three additions. The values to be added are:</p>
+    <ol>
+        <li>The largest whole millimeters (A) that is visible in the lower row of the scale on the sleeve near the thimble. It is 18mm in the figure shown above.</li>
+        <li>The last half-millimeter (B) graduation in the upper row of the scale on the sleeve, after the largest whole millimeter, that is uncovered. It is 0.5 mm in the figure shown above.</li>
+        <li>The graduation on the thimble which is aligned with the index line i.e. hundredths of millimeters (C). In the figure above it is 10th graduation i.e. 10 × 0.01 = 0.10.</li>
+        <li>The final reading is 18.00 + 0.50 + 0.10 = 18.60 mm.</li>
+    </ol>
+
+    <h3>To read a micrometer, follow these steps:</h3>
+    <p>(An example of how to read the micrometer is shown)</p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/50.jpg" alt="Taking a metric micrometer reading">
+        <span class="figure-caption">Figure 7: Taking a metric micrometer reading</span>
+    </div>
+
+    <ol>
+        <li>First read the number of whole millimeters that are visible on the lower row of the scale on the sleeve of the micrometer. It is 23mm in the above figure.</li>
+        <li>Now read the upper row of the scale if there is an additional mark uncovered or visible after the whole millimeter, this is equal to half millimeter. (Possibilities of this reading are, 0 or 1). Do not read between the lines on the sleeve. Read only the last division on the sleeve left exposed by the thimble after the whole millimeter. So 0.5 mm would need to be added to the measurement if 1 division is exposed. No 0.5 mm millimeters divisions are uncovered in the above figure = 0.0 millimeters.</li>
+        <li>Note the mark on the circumferential scale on thimble that line up with the index line. Each graduation on this scale is equal to 0.01 mm so this value (hundredths of millimeter) is to be added to the final measurement. It is 15 × 0.01 millimeter divisions lineup on the thimble with index line in the above figure = 0.15 millimeters.</li>
+        <li>Estimate (if needed) any fractional part between two divisions on the thimble at the index line. Add this as the estimated three-place millimeter value.</li>
+        <li>Add all the above readings obtained during step 1-4 to get the final measurement. Metric micrometer reading equals 23.00 + 0.00 + 0.15 = 23.15 millimeters.</li>
+        <li>Repeat each step to recheck the feel of the measurement and the accuracy of the reading.</li>
+    </ol>
+
+    <h3>Some more examples</h3>
+    <p><b>Example-1</b></p>
+    <p><b>Main linear scale reading + [Thimble reading × Least count]</b></p>
+    <p>Where, <b>Least Count</b> = (number of complete turns of thimble required to move the thimble one division on main linear scale × number of divisions on circumferential scale) ÷ smallest division on main linear scale</p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/51.jpg" alt="Metric micrometer reading">
+        <span class="figure-caption">Figure 8: Metric micrometer reading</span>
+    </div>
+
+    <div class="calc-box">
+        Whole millimeter divisions exposed = 15 = 15 × 1.00 = 15.00mm<br>
+        Half millimeter division exposed = 1 = 1 × 0.50 = 0.50mm<br>
+        Thimble reading, graduation which aligns with the index line on the sleeve = 13 = 13 × least count = 13 × 0.01 = 0.13mm<br>
+        <b>Total Metric micrometer reading = 15.63 mm</b>
+    </div>
+
+    <h3>Metric Vernier Micrometer</h3>
+    <p>
+        The addition of the Vernier scale to the barrel of a micrometer extends its use in making more precise measurements. The vernier metric micrometer has the ability to measure to two thousandths of a millimeter (0.002mm). This reading is added to the three place reading. The result is a four-place vernier micrometer reading. The vernier is graduated in increments of 0.002 mm starting and ending with 0. If either 0 on the vernier graduation scale lines up with the thimble reading, no additional thousandths of a millimeter are added to the reading. The two-thousandths vernier scale line that lines up with the graduated line on the thimble is added to the reading.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/52.jpg" alt="Vernier micrometer scales">
+        <span class="figure-caption">Figure 9: Vernier micrometer scales</span>
+    </div>
+
+    <h3>Reading the Metric Vernier Micrometer</h3>
+    <p>
+        The reading of the vernier metric micrometer is accomplished by adding the whole millimeter, the half-millimeter, and the hundredths of a millimeter just as before in the case of general micrometer. Further to this reading is added the number of two-thousandths of a millimeter which is read off of the vernier scale. In the above diagram shown, 0.006 mm must be added.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/53.jpg" alt="Taking metric vernier micrometer reading">
+        <span class="figure-caption">Figure 10: Taking metric vernier micrometer reading</span>
+    </div>
+
+    <div class="calc-box">
+        Whole millimeter divisions exposed = 15 = 15 × 1.00 = 15.00mm<br>
+        Half millimeter division exposed = 1 = 1 × 0.50 = 0.50mm<br>
+        Thimble reading, graduation which aligns with the index line on the sleeve = 8 = 8 × 0.01 = 0.08mm<br>
+        Vernier scale division that aligns up with the graduated line on the thimble = 2 = 2 × least count = 2 × 0.002 = 0.004mm<br>
+        <b>Total metric vernier micrometer reading = 15.584mm</b>
+    </div>
+
+    <h2>Outside Micrometer</h2>
+    <p>
+        Outside micrometer (micrometer caliper) is essentially a precision screw mounted in an open frame with suitable scales. It is used for very precise outside measurements. The measuring surfaces are at the ends of the stationary anvil and the movable spindle. The construction and parts of outside micrometer are described below.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/54.jpg" alt="Outside micrometer">
+        <span class="figure-caption">Figure 11: Outside micrometer</span>
+    </div>
+
+    <h3>Construction and Parts of an Outside Micrometer</h3>
+    <dl class="parts-list">
+        <dt>Steel Frame</dt>
+        <dd>The steel frame, which is either cast, or machined.</dd>
+        
+        <dt>Anvil</dt>
+        <dd>The anvil, which is pressed into the frame as a positive stop. It is generally made up of chromium steel and its one end is fitted with tungsten carbide tip.</dd>
+        
+        <dt>Spindle</dt>
+        <dd>The spindle, which is the core of the tool and is made with a hardened-steel surface. The spindle is actually an extension of a precision ground screw that threads into the sleeve, i.e. thread is cut directly on the spindle.</dd>
+        
+        <dt>Stem</dt>
+        <dd>The stem, which has internal threads lapped to mate with the spindle.</dd>
+        
+        <dt>Graduated sleeve</dt>
+        <dd>The spindle passes through this graduated sleeve that carries only a graduated linear scale to measure directly the axial advancement of the spindle. The graduated sleeve indicates the range of the instrument also i.e. the limit of measurement that can be taken by the micrometer, it is generally 25 mm in metric system and 1 inch in English system.</dd>
+        
+        <dt>Thimble</dt>
+        <dd>Other end of the screw (extension of spindle) is attached to the thimble, which is made of chromium steel. Its one end is knurled and the other end is bevel in shape on which circumferential scale is graduated that indicates the amount of partial rotation applied to the barrel (sleeve) of the micrometer. Turning the thimble moves the spindle toward or away from the anvil.</dd>
+        
+        <dt>Locknut</dt>
+        <dd>Locknut surrounds the spindle and causes it to stop spindle travel. It is designed to hold the reading so that it can be more easily viewed.</dd>
+        
+        <dt>Ratchet</dt>
+        <dd>As micrometer is a contact instrument. Therefore, sufficient torque is applied to the micrometer to make good positive contact between the specimen and the instrument. This torque is applied with the help of ratchet. It is a small knob at the far right of the micrometer. It assures more consistent contact pressure and eliminates the human influence. Once the right pressure has been achieved and the jaws are closed sufficiently, ratchet clicks and begins to slip. This is called as ratchet mechanism.</dd>
+    </dl>
+
+    <h3>Measuring with Outside Micrometer</h3>
+    <ol>
+        <li>Determine the size of the divisions on the linear scale graduated on sleeve, e.g. 1mm or 0.5mm or 0.1inch or 0.025inch. Whether the scale is in metric or English system.</li>
+        <li>Next note the number of divisions on circumferential scale graduated on the thimble, e.g. 50 or 25.</li>
+        <li>Determine the number of complete turns required to move the thimble one division on the linear scale graduated on sleeve.</li>
+        <li>Alter the micrometer opening so it is slightly larger than the feature to be measured.</li>
+        <li>The part to be measured is placed between the anvil and spindle.</li>
+    </ol>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/55.jpg" alt="Setting a workpiece">
+        <span class="figure-caption">Figure 12: Setting a workpiece between the spindle and anvil of micrometer</span>
+    </div>
+
+    <ol start="6">
+        <li>Gently rotate the thimble, until the ratchet begins to slip, to bring the spindle and anvil in contact with workpiece.</li>
+        <li>Lock the spindle with the help of locknut onto the size. Now reading the measurement is as easy as counting change.</li>
+        <li>The measurement is read using the graduated markings found on the sleeve and the thimble.</li>
+        <li>Add up the two readings on the sleeve and thimble to get the total measurement.</li>
+    </ol>
+
+    <h3>Handling Outside Micrometer</h3>
+    <p>
+        The first step in making a measurement is to use a clean rag to wipe any dirt from the measuring surfaces of the spindle and anvil. Any dirt in this area will give you an inaccurate reading. Also wipe off the area to be measured on the valve stem.
+    </p>
+    <p>
+        The line of the physical measurement should be such that it is coincident with the measurement axis of the instrument. If the measurement is out of line, it may lead to misreadings caused by deflections in the instrument. You cannot get a correct measurement with a micrometer unless the anvil and spindle are at right angles to the part being measured. Make sure the spindle and anvil are centered exactly across the diameter of the specimen or the reading will be undersize.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/56.jpg" alt="Alignment of workpiece">
+        <span class="figure-caption">Figure 13: Alignment of workpiece with spindle and anvil of micrometer</span>
+    </div>
+
+    <p>
+        Keep in mind when you are taking a micrometer measurement that there is a right way to hold the micrometer when measuring an object. You can hold a micrometer with one hand by resting the frame in the palm of the hand; insert one finger through the frame and use the thumb and forefinger to turn the spindle. You will find that this gives you good control over the position of the anvil and spindle.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/57.jpg" alt="Holding the micrometer">
+        <span class="figure-caption">Figure 14: Holding the micrometer</span>
+    </div>
+
+    <p>
+        Or, Place the micrometer over the area of specimen you wish to measure, by gripping the frame at two places. Use the right hand to make adjustments with the thimble, and then return the hand to the frame.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/58.jpg" alt="Correct micrometer and finger positions">
+        <span class="figure-caption">Figure 15: Correct micrometer and finger positions for taking measurement</span>
+    </div>
+    
+    <div class="figure-container">
+        <img src="images/mem/Workshop/59.jpg" alt="Roll the thimble gently">
+        <span class="figure-caption">Figure 16: Roll the thimble gently for long spindle movements</span>
+    </div>
+
+    <div class="note-box">
+        <b>Note:</b> <i>Keep in mind that a micrometer is a precision tool, not a C-clamp. If you force the spindle down too hard, the reading will not only be incorrect, but the frame may become distorted, which makes the micrometer useless.</i>
+    </div>
+
+    <h2>Micrometer in English System</h2>
+    
+    <div class="figure-container">
+        <img src="images/mem/Workshop/60.jpg" alt="Head of Micrometer in English System">
+        <span class="figure-caption">Figure 17: Head of Micrometer in English System</span>
+    </div>
+
+    <p>
+        In this system, the scale (longitudinal line) on the sleeve is of 1 inch, divided into 10 equal graduations, each equal to 0.1 inch, marked from 1 to 10, known as main divisions. Further each main division is subdivided into four equal parts, each equal to 0.025 inch, known as subdivision.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/61.jpg" alt="Inch micrometer scale">
+        <span class="figure-caption">Figure 18: Inch micrometer scale</span>
+    </div>
+
+    <p>
+        Inside the sleeve, a spindle is threaded with 40 threads in 1 inch, threads having a pitch exactly of 1/40 inch or 0.025 inch. Which means that one revolution of the screw moves the spindle by 0.025 inch toward or away from the anvil. Therefore, 40 turns of the screw will move the spindle exactly 1 inch (40 x 0.025 = 1.000).
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/62.jpg" alt="Pitch of spindle in English system">
+        <span class="figure-caption">Figure 19: Pitch of spindle in English system</span>
+    </div>
+
+    <p>
+        The beveled edge on the front of the moving thimble is graduated around with 25 equal divisions because the thimble and spindle travel 0.025 inch per revolution.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/63.jpg" alt="Circumferential scale on the thimble">
+        <span class="figure-caption">Figure 20: Circumferential scale on the thimble is graduated with 25 equal divisions each of 0.001 inch</span>
+    </div>
+
+    <p>
+        Every fifth line is numbered from 0 to 25. These divisions make it possible to read the amount of spindle travel for partial revolutions.
+        Therefore, each complete revolution of the thimble advances the spindle towards or away from anvil by 0.025 inch. For instance, a partial revolution from one thimble mark to the next is 1/25th of a revolution, which moves the spindle by 0.001 inch.
+    </p>
+
+    <div class="figure-container">
+        <img src="images/mem/Workshop/64.jpg" alt="One revolution of thimble in English system">
+        <span class="figure-caption">Figure 21: One revolution of thimble in English system translates the spindle by 0.025 inch</span>
+    </div>
+
+    <p>
+        This means each graduation on the thimble is equal to 0.001 inch. Thus least count of inch micrometer is 0.001 inch.
+    </p>
+
+    <div class="note-box">
+        <b>Note:</b> <i>It is important to understand that each size of inch system micrometer only measures just one inch. Regardless of the size of the micrometer, the length of the spindle is always 1 inch in English system. If one needs to measure something that is in the range of 1/2 inch, he will have to use a micrometer that measures from 0 to 1 inch. If one needs to measure something that is in the range of 1 1/2 inch, he will have to use a micrometer that measures from 1 to 2 inches. Micrometer sizes are classified as 0 to 1 inch, 1 to 2 inches, 2 to 3 inches, 9 to 10 inches, etc., so each size of micrometer measures just 1 inch. The size of the micrometer is usually indicated on the frame.</i>
+    </div>
+
+    <table class="nav-table">
+        <tr>
+            <td style="text-align:left;">
+                <a href="tutorial4.html" class="nav-link">&larr; Tutorial 4</a>
+            </td>
+            <td style="text-align:right;">
+                <a href="tutorial6.html" class="nav-link">Tutorial 6 &rarr;</a>
+            </td>
+        </tr>
+    </table>
+<!--here no tailwind we have used only normal CSS used
+    in case any error muditvij29@gmail.com-->
+    <div id="footer">
+        &copy; MEM103 - Dayalbagh Educational Institute <a href="https://www.dei.ac.in" target="_blank" title="DEI">(www.dei.ac.in)</a> &nbsp;-&nbsp; <a href="../ajay/index.html" target="_blank" title="Profile">Ajay Kant Upadhyay</a>
+    </div>
+
+</div>
+
+</body>
+</html>
